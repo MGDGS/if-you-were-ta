@@ -1,0 +1,39 @@
+name: Deploy game to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Set sharing image URL
+        env:
+          PAGE_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          node --input-type=module <<'JS'
+          import {readFile,writeFile} from 'node:fs/promises';
+          const file='site/index.html';
+          const html=await readFile(file,'utf8');
+          await writeFile(file,html.replace('./og-cover.png',process.env.PAGE_BASE_URL.replace(/\/$/,'')+'/og-cover.png'));
+          JS
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
