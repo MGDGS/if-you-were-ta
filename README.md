@@ -1,23 +1,19 @@
-# 再来一次 · S1可玩切片
+# 再来一次 · 完整可玩版
 
 从记事的那年开始，过一段不同的人生。
 
-测试地址：https://mgdgs.github.io/if-you-were-ta/
+https://mgdgs.github.io/if-you-were-ta/
 
-新版从6岁开始，在三种出身中选择一处；日常逐条推进，重大选择暂停。真实的练习与联系，会改变多年后可参与和协商的条件。18岁时确认下一段方向并保存阶段记录。
+从6岁到生命终点，经历学习、工作、经营、相处、婚育、照护、住房、理财、退休与回望。8个出身中选一个，早年的选择与真实积累在多年后改变条件。
 
-**19岁后的内容尚未开放，这不是完整一生。** 当前没有成年理财、工资、婚育与最终结局称号。旧版成人游戏从网页底部或 `old.html` 进入，原有存档保留。
+不评人生总分，不授予称号，不展示未选路线。最终回顾呈现真实经历、记录得到的时间安排和重要的人，玩家选择片段分享。
 
-[项目文档](docs/README.md) · [S1设计](docs/s1-playable-slice.md) · [逐项实现状态](docs/implementation-status.md)
+进度自动保存在浏览器，无需数据导出。清除站点数据或更换设备不会自动同步，请留意保存状态。原S1进度可接入成年；`s1.html`保留旧阶段页面，`old.html`保留成人职业旧版。
 
-## 本地运行与验证
+[文档目录](docs/README.md) · [具体实现与模型边界](docs/implementation-status.md)
 
-无需安装依赖。`python -m http.server 5186 --directory site`。
+本地：`python -m http.server 5187 --directory site`。
 
-引擎检查：`node tests/s1-engine.mjs`。
+验证：`node tests/full-engine.mjs`；浏览器：`node tests/full-browser.cjs`（Playwright、Chromium和5187预览）。
 
-浏览器检查：`node tests/s1-browser.cjs`（使用环境中的Playwright与Chromium，预览端口5186）。
-
-GitHub Pages由`.github/workflows/pages.yml`发布`site/`。网站无外部字体依赖。浏览器本地保存进度；换域名或设备前导出JSON再导入。GitHub版不启用玩家人数统计，不能承诺中国大陆所有网络均可访问。
-
-`docs/`在公开仓库可读，但不打包进Pages。不要提交密码、令牌、玩家身份资料或不适合公开的内容。
+GitHub Pages发布site/；docs/不打包到网页，但公开仓库里的文档仍可读取。GitHub版不运行人数统计，原站使用既有计数服务。不承诺任何托管在所有地区可达。
