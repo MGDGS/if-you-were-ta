@@ -1,0 +1,4352 @@
+{
+  "roles": {
+    "office": {
+      "name": "公司职员",
+      "job": "公司职员",
+      "age": 22,
+      "salary": 9.6,
+      "cash": 2.4,
+      "skill": 35,
+      "kind": "employee",
+      "power": 0,
+      "funds": 0,
+      "weight": 22,
+      "living": 6.4,
+      "intro": "月薪八千，存款两万四。先保住饭碗，再想想自己的生活。"
+    },
+    "hands": {
+      "name": "技术工人",
+      "job": "维修技工",
+      "age": 24,
+      "salary": 9,
+      "cash": 4,
+      "skill": 48,
+      "kind": "employee",
+      "power": 0,
+      "funds": 0,
+      "weight": 12,
+      "living": 6,
+      "intro": "手艺能挣钱，身体也得撑得住。新设备来了，老师傅也得学点新的。"
+    },
+    "service": {
+      "name": "社区工作者",
+      "job": "社区办事员",
+      "age": 26,
+      "salary": 8.4,
+      "cash": 3,
+      "skill": 36,
+      "kind": "public",
+      "power": 0,
+      "funds": 0,
+      "weight": 8,
+      "living": 6,
+      "intro": "接电话、填表、跑腿，认识的街坊比存款多。很多事得有人认真接住。"
+    },
+    "shop": {
+      "name": "自营小店店主",
+      "job": "自营小店店主",
+      "age": 30,
+      "salary": 0,
+      "cash": 8,
+      "skill": 44,
+      "kind": "business",
+      "power": 0,
+      "funds": 12,
+      "weight": 12,
+      "living": 6.4,
+      "revenue": 48,
+      "cost": 30,
+      "draw": 0.65,
+      "intro": "门是自己开的，灯也是自己关的。流水不是利润，店里的钱也不能都拿来过日子。"
+    },
+    "owner": {
+      "name": "企业老板",
+      "job": "小企业负责人",
+      "age": 38,
+      "salary": 0,
+      "cash": 60,
+      "skill": 58,
+      "kind": "business",
+      "power": 2,
+      "funds": 180,
+      "weight": 4,
+      "living": 9,
+      "revenue": 400,
+      "cost": 320,
+      "draw": 0.45,
+      "intro": "有团队，也有工资单和应收款。公司账上有钱，不等于你个人就能随便花。"
+    },
+    "civil": {
+      "name": "政府职员",
+      "job": "基层事务专员",
+      "age": 28,
+      "salary": 11.4,
+      "cash": 6,
+      "skill": 42,
+      "kind": "public",
+      "power": 1,
+      "funds": 0,
+      "weight": 10,
+      "living": 6.4,
+      "intro": "一份稳定工作，也有一摞要负责的材料。手里的小小权限，慢慢会引来不同的人。"
+    },
+    "mayor": {
+      "name": "市长",
+      "job": "虚构城市市长",
+      "age": 45,
+      "salary": 18,
+      "cash": 30,
+      "skill": 64,
+      "kind": "public",
+      "power": 3,
+      "funds": 1600,
+      "weight": 1,
+      "living": 8,
+      "intro": "接过一座虚构城市的担子。公共预算不是你的存款，居民的期待也不是一句口号。"
+    },
+    "freelance": {
+      "name": "自由职业者",
+      "job": "自由接单者",
+      "age": 25,
+      "salary": 0,
+      "cash": 5,
+      "skill": 48,
+      "kind": "freelance",
+      "power": 0,
+      "funds": 0,
+      "weight": 10,
+      "living": 6.2,
+      "intro": "不用打卡，得自己找活、谈价和催款。有些周末很自由，有些月底很紧张。"
+    },
+    "nurse": {
+      "name": "医护人员",
+      "job": "医疗护理人员",
+      "age": 27,
+      "salary": 12,
+      "cash": 7,
+      "skill": 57,
+      "kind": "employee",
+      "power": 0,
+      "funds": 0,
+      "weight": 7,
+      "living": 6.8,
+      "intro": "排班表排得很满。照顾别人的时候，也得记得自己不是永动机。"
+    },
+    "teacher": {
+      "name": "教师",
+      "job": "学校教师",
+      "age": 26,
+      "salary": 10.8,
+      "cash": 6,
+      "skill": 53,
+      "kind": "employee",
+      "power": 0,
+      "funds": 0,
+      "weight": 7,
+      "living": 6.4,
+      "intro": "教案、课堂和家长消息。你想教好学生，也想在放学后有自己的生活。"
+    },
+    "farmer": {
+      "name": "种植经营者",
+      "job": "家庭农场经营者",
+      "age": 29,
+      "salary": 0,
+      "cash": 6,
+      "skill": 48,
+      "kind": "business",
+      "power": 0,
+      "funds": 10,
+      "weight": 8,
+      "living": 5.4,
+      "revenue": 30,
+      "cost": 18,
+      "draw": 0.75,
+      "intro": "地里的收成要看天，卖出去的价格要看市场。辛苦一年，账还是要一笔笔算。"
+    },
+    "engineer": {
+      "name": "工程技术人员",
+      "job": "项目工程师",
+      "age": 27,
+      "salary": 16.8,
+      "cash": 10,
+      "skill": 61,
+      "kind": "employee",
+      "power": 1,
+      "funds": 0,
+      "weight": 10,
+      "living": 7.2,
+      "intro": "进度、预算和质量，总有人催你先顾眼前。签在文件上的名字，却是自己的。"
+    }
+  },
+  "ranges": {
+    "office": [
+      0.2,
+      35
+    ],
+    "hands": [
+      0.5,
+      45
+    ],
+    "service": [
+      0.3,
+      30
+    ],
+    "shop": [
+      -60,
+      100
+    ],
+    "owner": [
+      -300,
+      600
+    ],
+    "civil": [
+      1,
+      80
+    ],
+    "mayor": [
+      5,
+      200
+    ],
+    "freelance": [
+      -25,
+      60
+    ],
+    "nurse": [
+      0.5,
+      65
+    ],
+    "teacher": [
+      0.5,
+      60
+    ],
+    "farmer": [
+      -80,
+      100
+    ],
+    "engineer": [
+      1,
+      120
+    ]
+  },
+  "events": [
+    {
+      "id": "first",
+      "title": "老板：这个 AI，你研究一下",
+      "text": "入职第一天，老板把一个 AI 工具甩进群：“以后大家效率翻倍。”翻倍的是工资，还是工作量？你决定先试试。",
+      "choices": [
+        {
+          "id": "learn",
+          "label": "偷偷学会，给自己省点命",
+          "text": "花点时间搞懂它，先把重复工作交出去。",
+          "effects": {
+            "skill": 9,
+            "stress": 3
+          },
+          "flags": {
+            "ai": true
+          }
+        },
+        {
+          "id": "share",
+          "label": "学会后也教教同事",
+          "text": "自己多花点工夫，以后大家可以互相搭把手。",
+          "effects": {
+            "skill": 6,
+            "relations": 7,
+            "reputation": 3
+          },
+          "flags": {
+            "ai": true,
+            "helper": true
+          }
+        },
+        {
+          "id": "wait",
+          "label": "先等等，别当小白鼠",
+          "text": "工具可能会瞎编。你先用熟悉的办法，暂时也不添新压力。",
+          "effects": {
+            "stress": -4,
+            "skill": 1
+          },
+          "flags": {
+            "skeptic": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "tax",
+      "title": "第一次认真看工资条",
+      "text": "工资条上的“应发”和“实发”，中间总少了一截。还有你的副业收入，也得选一种申报办法。这里用的是虚构城市税制。",
+      "choices": [
+        {
+          "id": "honest",
+          "label": "该交多少交多少",
+          "text": "后面每年自动按这个方式申报。",
+          "effects": {},
+          "tax": "honest"
+        },
+        {
+          "id": "deduct",
+          "label": "把合法扣除算明白",
+          "text": "需要每年花 800 元整理材料，能少算一些应税收入。",
+          "effects": {},
+          "tax": "deduct"
+        },
+        {
+          "id": "hide",
+          "label": "少报一点，应该查不到吧？",
+          "text": "眼前少交，账不会消失。留下的记录未来可能被翻出来。",
+          "effects": {
+            "stress": 3
+          },
+          "tax": "hide"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "promotion",
+      "title": "“这个小组，你来带？”",
+      "text": "前任组长走了，老板问你接不接。年薪多 2.4 万，但项目签字也要你负责。不是当大官，只是终于有人开始找你办事。",
+      "choices": [
+        {
+          "id": "take",
+          "label": "接，工资总算要涨了",
+          "text": "成为小组负责人，拿到少量项目话语权。",
+          "effects": {
+            "salary": 2.4,
+            "power": 1,
+            "stress": 7
+          },
+          "flags": {
+            "manager": true
+          },
+          "job": "小组负责人"
+        },
+        {
+          "id": "expert",
+          "label": "不带人，靠技术涨一点",
+          "text": "年薪多 1.2 万，不接审批和采购。",
+          "effects": {
+            "salary": 1.2,
+            "skill": 6
+          },
+          "flags": {
+            "expert": true
+          }
+        },
+        {
+          "id": "no",
+          "label": "不了，准点下班更香",
+          "text": "少一次涨薪机会，换一点自己的时间。",
+          "effects": {
+            "mood": 6,
+            "stress": -6
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "kickback",
+      "title": "供应商说：一点心意",
+      "text": "你手里刚好有一笔设备采购的推荐权。对方把“感谢费”说得很轻巧，金额却相当于你几个月工资。",
+      "choices": [
+        {
+          "id": "refuse",
+          "label": "钱拿走，东西按规矩比",
+          "text": "这单会慢一点，关系也可能冷下来。",
+          "effects": {
+            "reputation": 7,
+            "stress": 2
+          },
+          "flags": {
+            "cleanDeal": true
+          }
+        },
+        {
+          "id": "take",
+          "label": "收下，谁又能知道呢",
+          "text": "存款 +4 万。留下利益输送记录，未来 4 年每年有 28% 的追查概率；不是查一次就安全。",
+          "effects": {
+            "cash": 4,
+            "stress": 8,
+            "reputation": -4
+          },
+          "case": {
+            "kind": "corrupt",
+            "amount": 4,
+            "years": 4,
+            "chance": 0.28
+          },
+          "flags": {
+            "corrupt": true
+          }
+        },
+        {
+          "id": "report",
+          "label": "把这事留痕上报",
+          "text": "当下麻烦些，也得罪对方。",
+          "effects": {
+            "reputation": 10,
+            "stress": 6,
+            "relations": -3
+          },
+          "flags": {
+            "whistle": true
+          }
+        }
+      ],
+      "condition": "s=>s.player.power>0&&!s.flags.fired"
+    },
+    {
+      "id": "loophole",
+      "title": "“政策有个空子，要不要一起？”",
+      "text": "熟人说，你的 AI 项目“包装一下”就能多拿补贴。你知道，申报里有几句话根本站不住脚。他只说：别人也这么干。",
+      "choices": [
+        {
+          "id": "no",
+          "label": "不碰，睡个安稳觉",
+          "text": "没赚到这笔钱，也不用惦记什么时候被问话。",
+          "effects": {
+            "stress": -3
+          }
+        },
+        {
+          "id": "apply",
+          "label": "只申报自己真符合的部分",
+          "text": "花 0.2 万整理材料，拿到 0.7 万真实补贴。",
+          "effects": {
+            "cash": 0.5,
+            "skill": 2
+          },
+          "cost": 0.2,
+          "gain": 0.7
+        },
+        {
+          "id": "fake",
+          "label": "先拿到钱再说",
+          "text": "存款 +2.5 万；未来 3 年每年 24% 概率复核，查实要退钱、罚款，口碑也会掉。",
+          "effects": {
+            "cash": 2.5,
+            "stress": 5
+          },
+          "case": {
+            "kind": "subsidy",
+            "amount": 2.5,
+            "years": 3,
+            "chance": 0.24
+          },
+          "flags": {
+            "gray": true
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>=3"
+    },
+    {
+      "id": "heat",
+      "title": "热得像在空气炸锅里",
+      "text": "连续高温。电费涨了，单位还想让大家照常跑外勤。社区开了避暑点，你得决定这周怎么过。",
+      "choices": [
+        {
+          "id": "cool",
+          "label": "开空调、请假，保命要紧",
+          "text": "花 0.3 万，健康 +3，压力 −4。",
+          "effects": {
+            "cash": -0.3,
+            "health": 3,
+            "stress": -4
+          }
+        },
+        {
+          "id": "work",
+          "label": "硬撑着干，别扣我工资",
+          "text": "省了这笔钱，健康 −8，心情 −5。",
+          "effects": {
+            "health": -8,
+            "mood": -5
+          }
+        },
+        {
+          "id": "help",
+          "label": "去避暑点搭把手",
+          "text": "花 0.1 万，关系 +8；你的保险不能替别人扇风。",
+          "effects": {
+            "cash": -0.1,
+            "relations": 8,
+            "mood": 4,
+            "health": -2
+          },
+          "flags": {
+            "volunteer": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "flood",
+      "title": "水，已经漫进楼道了",
+      "text": "暴雨一夜没停。家具、电脑、通勤都可能受影响。先做眼前的选择，之后会结算损失；有效保险会赔一部分。",
+      "choices": [
+        {
+          "id": "leave",
+          "label": "先撤，东西以后再说",
+          "text": "花 0.4 万临时安置，基础财物损失 2 万；有保险时减赔。",
+          "effects": {
+            "cash": -0.4,
+            "stress": 4
+          },
+          "disaster": {
+            "loss": 2,
+            "health": 0
+          }
+        },
+        {
+          "id": "save",
+          "label": "回去抢电脑和家当",
+          "text": "基础损失较少，但有 35% 概率受伤，健康 −18；受伤另付 1.2 万医疗费。",
+          "effects": {
+            "stress": 8
+          },
+          "disaster": {
+            "loss": 0.6,
+            "injury": 0.35
+          }
+        },
+        {
+          "id": "neighbors",
+          "label": "和邻居一起撤离",
+          "text": "花 0.2 万，基础财物损失 2.4 万，关系 +12。",
+          "effects": {
+            "cash": -0.2,
+            "relations": 12,
+            "reputation": 4
+          },
+          "disaster": {
+            "loss": 2.4,
+            "health": 0
+          },
+          "flags": {
+            "rescuer": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "storm",
+      "title": "风把城市按了暂停键",
+      "text": "台风停电三天，冰箱空了，工作也停了。公司通知“特殊时期共渡难关”，工资少了半个月。",
+      "choices": [
+        {
+          "id": "hotel",
+          "label": "找个有电的地方住",
+          "text": "花 0.6 万，少受点罪；基础财物损失 1 万可按保险赔付。",
+          "effects": {
+            "cash": -0.6,
+            "stress": -3
+          },
+          "disaster": {
+            "loss": 1
+          }
+        },
+        {
+          "id": "stay",
+          "label": "家里蹲，省一笔是一笔",
+          "text": "健康 −4，心情 −6；基础损失 1.4 万。",
+          "effects": {
+            "health": -4,
+            "mood": -6
+          },
+          "disaster": {
+            "loss": 1.4
+          }
+        },
+        {
+          "id": "community",
+          "label": "去社区帮忙，顺便领物资",
+          "text": "关系 +9、压力 +3；基础损失 1.2 万。",
+          "effects": {
+            "relations": 9,
+            "stress": 3
+          },
+          "disaster": {
+            "loss": 1.2
+          },
+          "flags": {
+            "volunteer": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "quake",
+      "title": "手机响了地震预警",
+      "text": "震感过去后，房屋需要检查。生活突然变得很具体：住哪儿、钱够不够、家人好不好。",
+      "choices": [
+        {
+          "id": "safe",
+          "label": "等检查通过再回去",
+          "text": "临时住宿 0.5 万，基础损失 2.8 万；有效保险赔付。",
+          "effects": {
+            "cash": -0.5,
+            "stress": 5
+          },
+          "disaster": {
+            "loss": 2.8
+          }
+        },
+        {
+          "id": "friends",
+          "label": "借住朋友家，帮大家联络",
+          "text": "关系 +5，基础损失 2.8 万；欠下一份人情。",
+          "effects": {
+            "relations": 5,
+            "mood": 2
+          },
+          "disaster": {
+            "loss": 2.8
+          }
+        },
+        {
+          "id": "return",
+          "label": "直接回去，不想再花钱",
+          "text": "少花住宿费，但 25% 概率受伤，另付医疗费。",
+          "effects": {
+            "stress": 8
+          },
+          "disaster": {
+            "loss": 2.8,
+            "injury": 0.25
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "crisis",
+      "title": "新闻说“短期波动”，群里在晒裁员名单",
+      "text": "金融危机来了。市场要跌多久没人知道。你持有的投资已按本年行情结算，接下来怎么保住日子？",
+      "choices": [
+        {
+          "id": "buffer",
+          "label": "接下来先求稳",
+          "text": "把投入重心改为休息，省钱过冬；没有自动卖出投资。",
+          "effects": {
+            "stress": -4
+          },
+          "focus": "rest",
+          "flags": {
+            "cautious": true
+          }
+        },
+        {
+          "id": "skill",
+          "label": "趁有工作补补技能",
+          "text": "花 0.6 万，技能 +12，压力 +3。",
+          "effects": {
+            "cash": -0.6,
+            "skill": 12,
+            "stress": 3
+          }
+        },
+        {
+          "id": "gamble",
+          "label": "我偏要在这时候赌一把",
+          "text": "借 3 万，全投 AI 高风险资产。负债和资产同时增加；未来仍可能继续跌。",
+          "effects": {
+            "stress": 8
+          },
+          "borrowInvest": 3,
+          "flags": {
+            "leveraged": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "layoff",
+      "title": "HR：我们聊十分钟",
+      "text": "工牌还没摘，群聊先退了。补偿已经打进账户。你现在没有工资，房租倒是一天没少。",
+      "choices": [
+        {
+          "id": "search",
+          "label": "简历投起来，先找饭碗",
+          "text": "技能 +3、压力 +5。每年都能在“过日子”里找工作。",
+          "effects": {
+            "skill": 3,
+            "stress": 5
+          },
+          "flags": {
+            "jobHunter": true
+          }
+        },
+        {
+          "id": "retrain",
+          "label": "拿 0.8 万换个方向",
+          "text": "技能 +15，口碑 +2。学完也不保证马上有工作。",
+          "effects": {
+            "cash": -0.8,
+            "skill": 15,
+            "reputation": 2
+          }
+        },
+        {
+          "id": "pause",
+          "label": "缓一个月，我真的累了",
+          "text": "健康 +5，压力 −12，心情 +4。",
+          "effects": {
+            "health": 5,
+            "stress": -12,
+            "mood": 4
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "sick",
+      "title": "体检报告：建议进一步检查",
+      "text": "你盯着那行小字，搜了一晚上。AI 的解释一会儿让你放心，一会儿又让你睡不着。",
+      "choices": [
+        {
+          "id": "doctor",
+          "label": "去正规医院，别自己吓自己",
+          "text": "花 0.8 万，健康 +14，压力 −5。",
+          "effects": {
+            "cash": -0.8,
+            "health": 14,
+            "stress": -5
+          }
+        },
+        {
+          "id": "cheap",
+          "label": "先做基础检查",
+          "text": "花 0.2 万，健康 +6，压力 −2。",
+          "effects": {
+            "cash": -0.2,
+            "health": 6,
+            "stress": -2
+          }
+        },
+        {
+          "id": "later",
+          "label": "先忙完这阵再说",
+          "text": "没花钱，健康 −10，压力 +6；拖着可能触发更严重的病。",
+          "effects": {
+            "health": -10,
+            "stress": 6
+          },
+          "flags": {
+            "delayedCare": true
+          }
+        }
+      ],
+      "condition": "s=>s.player.health<72||s.elapsed>10"
+    },
+    {
+      "id": "hospital",
+      "title": "这回真得住院了",
+      "text": "医生建议治疗。你最先问的不是“多久能好”，是“要多少钱”。这里的医疗账单是游戏设定。",
+      "choices": [
+        {
+          "id": "full",
+          "label": "正规治疗，钱不够也得治",
+          "text": "治疗费 3 万，按保险减赔，不足部分记入借款；健康 +30。",
+          "effects": {
+            "health": 30,
+            "stress": 4
+          },
+          "medical": 3,
+          "allowDebt": true
+        },
+        {
+          "id": "basic",
+          "label": "先做能负担的治疗",
+          "text": "治疗费 1 万，按保险减赔，不足部分借款；健康 +15。",
+          "effects": {
+            "health": 15,
+            "stress": 3
+          },
+          "medical": 1,
+          "allowDebt": true
+        },
+        {
+          "id": "no",
+          "label": "扛一扛，手头真的没钱",
+          "text": "健康 −12，心情 −8。健康见底会提前结束人生。",
+          "effects": {
+            "health": -12,
+            "mood": -8
+          }
+        }
+      ],
+      "condition": "s=>s.player.health<45"
+    },
+    {
+      "id": "lottery",
+      "title": "便利店老板：来一张？",
+      "text": "你只是来买水。收银台上的彩票倒是看起来很会许愿。",
+      "choices": [
+        {
+          "id": "one",
+          "label": "两块钱，买个做梦机会",
+          "text": "花 0.0002 万。1% 概率中 0.2 万，0.01% 概率中 100 万，否则没中；大奖按游戏税率扣 20%。",
+          "effects": {
+            "cash": -0.0002
+          },
+          "lottery": 1
+        },
+        {
+          "id": "many",
+          "label": "花两百，今天手气应该行",
+          "text": "花 0.02 万买一组。2% 概率中 0.5 万，0.1% 概率中 100 万；仍很可能白花。",
+          "effects": {
+            "cash": -0.02
+          },
+          "lottery": 2
+        },
+        {
+          "id": "water",
+          "label": "我只要那瓶水",
+          "text": "不买彩票，今天也能过。",
+          "effects": {
+            "mood": 1
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>=2"
+    },
+    {
+      "id": "friend-money",
+      "title": "朋友：就借三万，月底还",
+      "text": "聊天框里一句“只有你能帮我了”。你既怕伤感情，也怕最后钱和朋友都没了。",
+      "choices": [
+        {
+          "id": "lend",
+          "label": "借，留好借据",
+          "text": "借出 3 万，关系 +6；两年后 60% 概率归还 3.1 万，否则收不回来。",
+          "effects": {
+            "cash": -3,
+            "relations": 6
+          },
+          "delay": {
+            "years": 2,
+            "chance": 0.6,
+            "gain": 3.1,
+            "good": "朋友把钱还了，还请你吃了顿饭。",
+            "bad": "“月底还”变成了已读不回。",
+            "badEffects": {
+              "relations": -12,
+              "mood": -6
+            }
+          }
+        },
+        {
+          "id": "small",
+          "label": "最多帮五千，不要求你还",
+          "text": "花 0.5 万，关系 +3，没有后续还款。",
+          "effects": {
+            "cash": -0.5,
+            "relations": 3
+          }
+        },
+        {
+          "id": "no",
+          "label": "对不起，我也得过日子",
+          "text": "关系 −4，保住自己的缓冲钱。",
+          "effects": {
+            "relations": -4,
+            "stress": 2
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>4"
+    },
+    {
+      "id": "startup",
+      "title": "朋友拉你一起干票大的",
+      "text": "“AI 风口，再不进就晚了。”他有 PPT，你有存款。两样东西里只有一样能交房租。",
+      "choices": [
+        {
+          "id": "full",
+          "label": "辞职，拿五万干",
+          "text": "投入 5 万，停止原工资；成为创业者，收入波动，两年后项目再结算。",
+          "effects": {
+            "cash": -5,
+            "stress": 12,
+            "power": 1
+          },
+          "job": "小店创业者",
+          "business": true,
+          "delay": {
+            "years": 2,
+            "chance": 0.4,
+            "gain": 12,
+            "good": "项目活下来了，第一笔分红终于到账。",
+            "bad": "项目关门了。投入没有回来，至少你学会了看合同。",
+            "badEffects": {
+              "stress": 8,
+              "skill": 8
+            }
+          },
+          "flags": {
+            "founder": true
+          }
+        },
+        {
+          "id": "small",
+          "label": "只出一万，别辞职",
+          "text": "两年后 40% 概率拿回 2.5 万，否则本金归零。",
+          "effects": {
+            "cash": -1,
+            "stress": 3
+          },
+          "delay": {
+            "years": 2,
+            "chance": 0.4,
+            "gain": 2.5,
+            "good": "小项目分红到账，你特意核对了三遍。",
+            "bad": "朋友发来一段很长的复盘。钱没了。"
+          }
+        },
+        {
+          "id": "no",
+          "label": "祝你成功，我先保住工资",
+          "text": "压力 −2，不参与项目。",
+          "effects": {
+            "stress": -2
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>5&&s.player.age<58"
+    },
+    {
+      "id": "family",
+      "title": "家里说：今年能回来吗",
+      "text": "你翻了翻余额，又看了看请假系统。原来“有空再说”已经说了很多年。",
+      "choices": [
+        {
+          "id": "go",
+          "label": "回去，钱以后再赚",
+          "text": "花 0.4 万，关系 +12、心情 +7。",
+          "effects": {
+            "cash": -0.4,
+            "relations": 12,
+            "mood": 7
+          }
+        },
+        {
+          "id": "call",
+          "label": "先认真打个长电话",
+          "text": "关系 +5，压力 −3。",
+          "effects": {
+            "relations": 5,
+            "stress": -3
+          }
+        },
+        {
+          "id": "busy",
+          "label": "真走不开，下次一定",
+          "text": "关系 −8，技能 +2。",
+          "effects": {
+            "relations": -8,
+            "skill": 2
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "ai-error",
+      "title": "AI 把你的锅煮熟了",
+      "text": "你直接交了 AI 生成的材料，里面一个编造的数据被客户当场指出。老板在群里只发了一个问号。",
+      "choices": [
+        {
+          "id": "own",
+          "label": "认错，重做，自己复核",
+          "text": "口碑 +3，技能 +5，压力 +5。",
+          "effects": {
+            "reputation": 3,
+            "skill": 5,
+            "stress": 5
+          }
+        },
+        {
+          "id": "blame",
+          "label": "说是软件的问题",
+          "text": "压力 −2，口碑 −8；之后升职会更难。",
+          "effects": {
+            "stress": -2,
+            "reputation": -8
+          }
+        },
+        {
+          "id": "pay",
+          "label": "私下花钱请人补救",
+          "text": "花 0.6 万，口碑 +1，压力 −3。",
+          "effects": {
+            "cash": -0.6,
+            "reputation": 1,
+            "stress": -3
+          }
+        }
+      ],
+      "condition": "s=>s.flags.ai"
+    },
+    {
+      "id": "automation",
+      "title": "你擅长的活，现在软件也会了",
+      "text": "新系统能做掉你一半的工作。有人说终于轻松了，也有人发现，下季度部门人数也要少一半。",
+      "choices": [
+        {
+          "id": "learn",
+          "label": "把剩下一半练成看家本领",
+          "text": "花 0.5 万，技能 +13，压力 +4。",
+          "effects": {
+            "cash": -0.5,
+            "skill": 13,
+            "stress": 4
+          },
+          "flags": {
+            "ai": true
+          }
+        },
+        {
+          "id": "human",
+          "label": "去做更需要和人打交道的活",
+          "text": "关系 +8，技能 +4，年薪 −0.6 万。",
+          "effects": {
+            "relations": 8,
+            "skill": 4,
+            "salary": -0.6
+          }
+        },
+        {
+          "id": "hide",
+          "label": "先装作很忙，撑过这个月",
+          "text": "压力 +8，技能不变，裁员风险仍在。",
+          "effects": {
+            "stress": 8
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>7&&s.employed"
+    },
+    {
+      "id": "procurement",
+      "title": "熟人托你“打个招呼”",
+      "text": "你有一点签字权以后，饭局突然变多了。这次对方想让不合格的系统先过关，还给你留了一份“咨询费”。",
+      "choices": [
+        {
+          "id": "no",
+          "label": "不签，出了事要担责任",
+          "text": "口碑 +6，关系 −4。",
+          "effects": {
+            "reputation": 6,
+            "relations": -4
+          }
+        },
+        {
+          "id": "yes",
+          "label": "签了，先赚八万",
+          "text": "存款 +8 万；未来 5 年每年 32% 概率被查，可能失业、罚款或服刑。",
+          "effects": {
+            "cash": 8,
+            "reputation": -8,
+            "stress": 10
+          },
+          "case": {
+            "kind": "corrupt",
+            "amount": 8,
+            "years": 5,
+            "chance": 0.32
+          },
+          "flags": {
+            "corrupt": true
+          }
+        },
+        {
+          "id": "fix",
+          "label": "让他补齐真实测试再来",
+          "text": "技能 +5，压力 +4，没有收钱。",
+          "effects": {
+            "skill": 5,
+            "stress": 4
+          }
+        }
+      ],
+      "condition": "s=>s.player.power>0&&s.elapsed>8&&s.employed"
+    },
+    {
+      "id": "rent",
+      "title": "房东：下个月要涨一点",
+      "text": "“一点”是每月五百。房东说是跟市场走，你怀疑市场只会往你钱包里走。",
+      "choices": [
+        {
+          "id": "stay",
+          "label": "不想折腾，续租",
+          "text": "以后每年生活支出 +0.6 万，心情 +2。",
+          "effects": {
+            "mood": 2
+          },
+          "expense": 0.6
+        },
+        {
+          "id": "move",
+          "label": "换便宜点的房子",
+          "text": "搬家花 0.3 万，以后每年生活支出 −0.4 万，压力 +4。",
+          "effects": {
+            "cash": -0.3,
+            "stress": 4
+          },
+          "expense": -0.4
+        },
+        {
+          "id": "negotiate",
+          "label": "带着周边报价聊聊",
+          "text": "关系 +1，技能 +2，涨租取消。",
+          "effects": {
+            "relations": 1,
+            "skill": 2
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>3"
+    },
+    {
+      "id": "burnout",
+      "title": "醒了，但没完全活过来",
+      "text": "周日晚上就开始心慌。手机一响，你先想到的是工作，不是消息。",
+      "choices": [
+        {
+          "id": "rest",
+          "label": "请假，先把自己捡回来",
+          "text": "花 0.3 万，健康 +9，压力 −20。",
+          "effects": {
+            "cash": -0.3,
+            "health": 9,
+            "stress": -20
+          }
+        },
+        {
+          "id": "help",
+          "label": "找人聊聊，别一个人扛",
+          "text": "花 0.1 万，关系 +5，压力 −12。",
+          "effects": {
+            "cash": -0.1,
+            "relations": 5,
+            "stress": -12
+          }
+        },
+        {
+          "id": "push",
+          "label": "忍到发奖金就好了",
+          "text": "年薪 +0.3 万，健康 −8，压力 +7。",
+          "effects": {
+            "salary": 0.3,
+            "health": -8,
+            "stress": 7
+          }
+        }
+      ],
+      "condition": "s=>s.player.stress>68"
+    },
+    {
+      "id": "public-job",
+      "title": "社区缺个人，你来不来？",
+      "text": "不是坐在顶层指挥世界，而是负责一个小项目：采购、报销、联系居民。钱不算多，手里的签字却有分量。",
+      "choices": [
+        {
+          "id": "take",
+          "label": "去，起码做点看得见的事",
+          "text": "换成年薪 10.8 万的社区项目工作，获得话语权。",
+          "effects": {
+            "power": 1,
+            "stress": 4
+          },
+          "job": "社区项目专员",
+          "salarySet": 10.8,
+          "employ": true,
+          "flags": {
+            "public": true
+          }
+        },
+        {
+          "id": "no",
+          "label": "不了，我有自己的打算",
+          "text": "心情 +2。",
+          "effects": {
+            "mood": 2
+          }
+        },
+        {
+          "id": "volunteer",
+          "label": "工作不换，周末去帮忙",
+          "text": "关系 +8、压力 +3，不获得审批权。",
+          "effects": {
+            "relations": 8,
+            "stress": 3
+          },
+          "flags": {
+            "volunteer": true
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>=5&&s.player.age<60&&!s.flags.public"
+    },
+    {
+      "id": "raise",
+      "title": "“今年涨薪名额不多”",
+      "text": "老板说得好像名额是从牙缝里省出来的。你手里有成果，也可以继续安静做事。",
+      "choices": [
+        {
+          "id": "ask",
+          "label": "拿着成果谈价格",
+          "text": "年薪 +1.2 万，压力 +4。",
+          "effects": {
+            "salary": 1.2,
+            "stress": 4
+          }
+        },
+        {
+          "id": "jump",
+          "label": "换个地方，试试能不能更好",
+          "text": "花 0.3 万换工作，年薪 +2 万，关系 −4，压力 +7。",
+          "effects": {
+            "cash": -0.3,
+            "salary": 2,
+            "relations": -4,
+            "stress": 7
+          }
+        },
+        {
+          "id": "time",
+          "label": "钱少一点，换弹性时间",
+          "text": "年薪 −0.3 万，健康 +4、压力 −8。",
+          "effects": {
+            "salary": -0.3,
+            "health": 4,
+            "stress": -8
+          }
+        }
+      ],
+      "condition": "s=>s.employed&&s.player.age<62"
+    },
+    {
+      "id": "windfall",
+      "title": "旧东西，居然有人出高价",
+      "text": "你翻出一台旧游戏机。二手平台上的报价让你认真擦了擦灰。",
+      "choices": [
+        {
+          "id": "sell",
+          "label": "卖，回忆不能付账单",
+          "text": "存款 +0.8 万，心情 −1。",
+          "effects": {
+            "cash": 0.8,
+            "mood": -1
+          }
+        },
+        {
+          "id": "keep",
+          "label": "留着，这是我的青春",
+          "text": "心情 +6。",
+          "effects": {
+            "mood": 6
+          }
+        },
+        {
+          "id": "gift",
+          "label": "送给一个真的喜欢它的人",
+          "text": "关系 +5、心情 +3。",
+          "effects": {
+            "relations": 5,
+            "mood": 3
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "scam",
+      "title": "有人承诺：AI 理财，稳赚",
+      "text": "截图里全是盈利。群友比你的亲戚还关心你，唯一的条件是赶紧打钱。",
+      "choices": [
+        {
+          "id": "no",
+          "label": "拉黑，稳赚轮不到我",
+          "text": "技能 +2，没损失。",
+          "effects": {
+            "skill": 2
+          }
+        },
+        {
+          "id": "try",
+          "label": "投一万试试",
+          "text": "花 1 万；这是骗局，一年后不会返款，还可能继续骚扰你。",
+          "effects": {
+            "cash": -1,
+            "stress": 3
+          },
+          "delay": {
+            "years": 1,
+            "chance": 0,
+            "gain": 0,
+            "good": "",
+            "bad": "“理财顾问”失联了，群也没了。",
+            "badEffects": {
+              "mood": -8,
+              "stress": 5
+            }
+          },
+          "flags": {
+            "scammed": true
+          }
+        },
+        {
+          "id": "warn",
+          "label": "提醒群里其他人",
+          "text": "口碑 +5、关系 +3。",
+          "effects": {
+            "reputation": 5,
+            "relations": 3
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>2"
+    },
+    {
+      "id": "care",
+      "title": "家里有人需要长期照护",
+      "text": "排班表可以让 AI 来做，夜里起床照顾人这件事还得有人来。钱、时间、心情，很难全顾上。",
+      "choices": [
+        {
+          "id": "service",
+          "label": "请人帮忙，自己也定期去",
+          "text": "花 1.5 万，关系 +8，压力 +3。",
+          "effects": {
+            "cash": -1.5,
+            "relations": 8,
+            "stress": 3
+          }
+        },
+        {
+          "id": "self",
+          "label": "自己多承担一些",
+          "text": "健康 −5，压力 +10，关系 +12。",
+          "effects": {
+            "health": -5,
+            "stress": 10,
+            "relations": 12
+          }
+        },
+        {
+          "id": "share",
+          "label": "和家人摊开讲，重新分工",
+          "text": "花 0.3 万，关系 +6，压力 +2。",
+          "effects": {
+            "cash": -0.3,
+            "relations": 6,
+            "stress": 2
+          }
+        }
+      ],
+      "condition": "s=>s.player.age>38"
+    },
+    {
+      "id": "robot",
+      "title": "一台家务机器人，顶三个月工资",
+      "text": "广告说它能解放双手。评论区有人说真香，有人说只是多了一个需要照顾的祖宗。",
+      "choices": [
+        {
+          "id": "buy",
+          "label": "买，时间也是钱",
+          "text": "花 2.4 万，健康 +4、压力 −8，心情 +5。",
+          "effects": {
+            "cash": -2.4,
+            "health": 4,
+            "stress": -8,
+            "mood": 5
+          }
+        },
+        {
+          "id": "rent",
+          "label": "先租一个月，别冲动",
+          "text": "花 0.2 万，心情 +3、技能 +2。",
+          "effects": {
+            "cash": -0.2,
+            "mood": 3,
+            "skill": 2
+          }
+        },
+        {
+          "id": "no",
+          "label": "再等等，我的手还能用",
+          "text": "存款不变，心情 +1。",
+          "effects": {
+            "mood": 1
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>15"
+    },
+    {
+      "id": "friend-success",
+      "title": "老同学晒出了第二套房",
+      "text": "你正蹲在便利店门口吃饭。朋友圈一刷新，手里的饭突然不香了。",
+      "choices": [
+        {
+          "id": "mute",
+          "label": "屏蔽一下，先把饭吃完",
+          "text": "心情 +5、压力 −5。",
+          "effects": {
+            "mood": 5,
+            "stress": -5
+          }
+        },
+        {
+          "id": "learn",
+          "label": "问问对方到底怎么做的",
+          "text": "技能 +4、关系 +3。别人的结果不保证能复制。",
+          "effects": {
+            "skill": 4,
+            "relations": 3
+          }
+        },
+        {
+          "id": "compare",
+          "label": "我也要更拼一点",
+          "text": "压力 +8，年薪 +0.4 万。",
+          "effects": {
+            "stress": 8,
+            "salary": 0.4
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "privacy",
+      "title": "公司想买你的身体数据",
+      "text": "AI 医疗项目在招志愿者。钱会马上到账，数据出去以后，很难完全收回来。",
+      "choices": [
+        {
+          "id": "yes",
+          "label": "签，先拿一万",
+          "text": "存款 +1 万，健康 +2，压力 +3；三年后可能发生泄露。",
+          "effects": {
+            "cash": 1,
+            "health": 2,
+            "stress": 3
+          },
+          "delay": {
+            "years": 3,
+            "chance": 0.7,
+            "gain": 0,
+            "good": "这次没有发生数据事故。",
+            "bad": "你的健康数据出现在推销电话的话术里。",
+            "badEffects": {
+              "stress": 9,
+              "mood": -6
+            }
+          }
+        },
+        {
+          "id": "limited",
+          "label": "只参加不出售原始数据的项目",
+          "text": "花 0.1 万，健康 +4。",
+          "effects": {
+            "cash": -0.1,
+            "health": 4
+          }
+        },
+        {
+          "id": "no",
+          "label": "不了，我不想把这个卖掉",
+          "text": "心情 +2。",
+          "effects": {
+            "mood": 2
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>8"
+    },
+    {
+      "id": "housing",
+      "title": "换个城市，能不能轻松一点",
+      "text": "大城市的机会多，小城市的房租便宜。你终于开始认真算，留下来的代价。",
+      "choices": [
+        {
+          "id": "move",
+          "label": "去生活成本低一点的地方",
+          "text": "搬家花 0.8 万，以后生活支出每年少 1.2 万，年薪少 1 万，压力 −8。",
+          "effects": {
+            "cash": -0.8,
+            "salary": -1,
+            "stress": -8
+          },
+          "expense": -1.2,
+          "flags": {
+            "moved": true
+          }
+        },
+        {
+          "id": "stay",
+          "label": "留下，我还想试试",
+          "text": "技能 +5，压力 +4。",
+          "effects": {
+            "skill": 5,
+            "stress": 4
+          }
+        },
+        {
+          "id": "remote",
+          "label": "争取远程，先试半年",
+          "text": "花 0.2 万，生活支出每年少 0.4 万，技能 +3。",
+          "effects": {
+            "cash": -0.2,
+            "skill": 3
+          },
+          "expense": -0.4
+        }
+      ],
+      "condition": "s=>s.elapsed>10"
+    },
+    {
+      "id": "retire",
+      "title": "社保页面弹出：快到你了",
+      "text": "年轻时觉得退休是个很远的词。现在你开始认真看，每个月能到账多少。",
+      "choices": [
+        {
+          "id": "rest",
+          "label": "退，换我过自己的日子",
+          "text": "65 岁起领取游戏养老金，工作收入停止，压力 −12。",
+          "effects": {
+            "stress": -12,
+            "mood": 6
+          },
+          "flags": {
+            "retireEarlyMind": true
+          }
+        },
+        {
+          "id": "part",
+          "label": "退休后接点零活",
+          "text": "65 岁后每年多约 1.2 万副业收入，压力 +3。",
+          "effects": {
+            "stress": 3
+          },
+          "flags": {
+            "retireWork": true
+          }
+        },
+        {
+          "id": "help",
+          "label": "以后多帮帮社区和家人",
+          "text": "关系 +10、心情 +6。",
+          "effects": {
+            "relations": 10,
+            "mood": 6
+          },
+          "flags": {
+            "elderHelper": true
+          }
+        }
+      ],
+      "condition": "s=>s.player.age>=60"
+    },
+    {
+      "id": "meaning",
+      "title": "忽然多出来一个没有安排的周末",
+      "text": "没有群消息，没有待办。你站在窗边发了会儿呆：这些年赚到的钱，到底是为了什么？",
+      "choices": [
+        {
+          "id": "trip",
+          "label": "带重要的人出去走走",
+          "text": "花 1 万，关系 +10、心情 +10。",
+          "effects": {
+            "cash": -1,
+            "relations": 10,
+            "mood": 10
+          }
+        },
+        {
+          "id": "quiet",
+          "label": "散步，认真过一天",
+          "text": "不额外花钱，健康 +3、心情 +6。",
+          "effects": {
+            "health": 3,
+            "mood": 6
+          }
+        },
+        {
+          "id": "learn",
+          "label": "学一个完全不为赚钱的东西",
+          "text": "花 0.2 万，技能 +4、心情 +5。",
+          "effects": {
+            "cash": -0.2,
+            "skill": 4,
+            "mood": 5
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>20"
+    },
+    {
+      "id": "climate-tax",
+      "title": "账单多了一项：城市防灾费",
+      "text": "海绵道路、避暑点、排水工程要花钱。城市每年新增 0.12 万防灾附加费。你对这笔钱有自己的想法。",
+      "choices": [
+        {
+          "id": "accept",
+          "label": "交，至少公示里写清楚用途",
+          "text": "城市年度支出已统一生效，口碑 +2。",
+          "effects": {
+            "reputation": 2
+          }
+        },
+        {
+          "id": "watch",
+          "label": "交，但盯着项目公示",
+          "text": "技能 +3、关系 +3。费用不会因你监督而自动取消。",
+          "effects": {
+            "skill": 3,
+            "relations": 3
+          },
+          "flags": {
+            "watcher": true
+          }
+        },
+        {
+          "id": "anger",
+          "label": "吐槽一晚上，该交还得交",
+          "text": "压力 +3，心情 −2。",
+          "effects": {
+            "stress": 3,
+            "mood": -2
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>12"
+    },
+    {
+      "id": "second-chance",
+      "title": "有人问你：愿不愿意重新来过",
+      "text": "履历里有过难看的空白，也有认真干活留下的痕迹。一份不算体面的工作，愿意给你机会。",
+      "choices": [
+        {
+          "id": "take",
+          "label": "去，先把日子接上",
+          "text": "获得年薪 7.2 万的工作，口碑 +3，压力 −4。",
+          "effects": {
+            "reputation": 3,
+            "stress": -4
+          },
+          "employ": true,
+          "salarySet": 7.2,
+          "job": "重新上班的人"
+        },
+        {
+          "id": "learn",
+          "label": "再学一年，再找更合适的",
+          "text": "技能 +10，压力 +2，没有工资。",
+          "effects": {
+            "skill": 10,
+            "stress": 2
+          }
+        },
+        {
+          "id": "small",
+          "label": "接些小活过渡",
+          "text": "本年多 1.2 万收入，压力 +2，不算正式就业。",
+          "effects": {
+            "cash": 1.2,
+            "stress": 2
+          }
+        }
+      ],
+      "condition": "s=>!s.employed&&!s.prison&&s.player.age<65"
+    },
+    {
+      "id": "temptation-again",
+      "title": "“上次没事，这次也没事吧”",
+      "text": "旧相识又找来了。你知道这笔钱是什么意思，也知道“没被发现”和“没有后果”不是一回事。",
+      "choices": [
+        {
+          "id": "stop",
+          "label": "到这儿为止，不再接",
+          "text": "压力 −3，不会抹去以前的记录。",
+          "effects": {
+            "stress": -3
+          }
+        },
+        {
+          "id": "again",
+          "label": "再来一次，最后一次",
+          "text": "存款 +6 万，再留一条未来 5 年每年 30% 概率追查的记录。",
+          "effects": {
+            "cash": 6,
+            "stress": 9,
+            "reputation": -5
+          },
+          "case": {
+            "kind": "corrupt",
+            "amount": 6,
+            "years": 5,
+            "chance": 0.3
+          }
+        },
+        {
+          "id": "return",
+          "label": "把以前收的钱退回去",
+          "text": "花 2 万，口碑 +3；旧记录仍可能被查，未来处罚会酌情减轻。",
+          "effects": {
+            "cash": -2,
+            "reputation": 3
+          },
+          "flags": {
+            "returned": true
+          }
+        }
+      ],
+      "condition": "s=>s.flags.corrupt&&s.player.power>0&&s.employed"
+    },
+    {
+      "id": "severance",
+      "title": "公司说自愿降薪，群里没人自愿",
+      "text": "行业订单少了。公司给了两份表：接受降薪，或者领补偿走人。",
+      "choices": [
+        {
+          "id": "stay",
+          "label": "先保住岗位",
+          "text": "年薪 −1.2 万，压力 +5。",
+          "effects": {
+            "salary": -1.2,
+            "stress": 5
+          }
+        },
+        {
+          "id": "leave",
+          "label": "拿补偿走人",
+          "text": "获得 2 万补偿，停止工资；之后得重新找工作。",
+          "effects": {
+            "cash": 2,
+            "stress": 3
+          },
+          "unemploy": true
+        },
+        {
+          "id": "talk",
+          "label": "和同事一起谈方案",
+          "text": "年薪 −0.5 万，关系 +5，压力 +5。",
+          "effects": {
+            "salary": -0.5,
+            "relations": 5,
+            "stress": 5
+          }
+        }
+      ],
+      "condition": "s=>s.employed&&s.elapsed>10&&s.player.age<62"
+    },
+    {
+      "id": "inherited",
+      "title": "一个旧存折，留到了你手上",
+      "text": "家人整理东西时，交给你一个旧存折。钱不多，但你知道这不是天上掉下来的。",
+      "choices": [
+        {
+          "id": "save",
+          "label": "先留着，做生活缓冲",
+          "text": "存款 +3 万，心情 −2。",
+          "effects": {
+            "cash": 3,
+            "mood": -2
+          }
+        },
+        {
+          "id": "family",
+          "label": "一半留给家里",
+          "text": "存款 +1.5 万，关系 +8。",
+          "effects": {
+            "cash": 1.5,
+            "relations": 8
+          }
+        },
+        {
+          "id": "give",
+          "label": "交给更需要照护的家人",
+          "text": "关系 +14，心情 +4。",
+          "effects": {
+            "relations": 14,
+            "mood": 4
+          }
+        }
+      ],
+      "condition": "s=>s.player.age>45"
+    },
+    {
+      "id": "good-day",
+      "title": "没什么大事的一天",
+      "text": "工资按时到账，体检没大问题，喜欢的人回了消息。好像没有什么值得发朋友圈，又好像什么都有了。",
+      "choices": [
+        {
+          "id": "meal",
+          "label": "请大家吃顿好的",
+          "text": "花 0.12 万，关系 +6、心情 +7。",
+          "effects": {
+            "cash": -0.12,
+            "relations": 6,
+            "mood": 7
+          }
+        },
+        {
+          "id": "walk",
+          "label": "去河边走一走",
+          "text": "健康 +3、心情 +5。",
+          "effects": {
+            "health": 3,
+            "mood": 5
+          }
+        },
+        {
+          "id": "save",
+          "label": "记一笔账，今天也没白过",
+          "text": "技能 +1，心情 +3。",
+          "effects": {
+            "skill": 1,
+            "mood": 3
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "bankruptcy",
+      "title": "账本上，已经撑不下去了",
+      "text": "债务滚到了很难靠工资还清的程度。你可以申请游戏里的债务重整，也可以继续还。破产会失去投资，但人生不会因此删档。",
+      "choices": [
+        {
+          "id": "reset",
+          "label": "申请重整，承认需要重来",
+          "text": "投资清零，清偿可用存款，保留 0.8 万生活费，剩余债务免除；未来 5 年无法借款。",
+          "effects": {
+            "stress": -15,
+            "reputation": -8
+          },
+          "bankrupt": true
+        },
+        {
+          "id": "repay",
+          "label": "卖出投资，能还多少先还",
+          "text": "投资全部变现，尽量还债，未来继续承担 5% 年息。",
+          "effects": {
+            "stress": 5
+          },
+          "liquidate": true
+        },
+        {
+          "id": "support",
+          "label": "找债务援助，慢慢还",
+          "text": "未来 5 年利息降到 2%；欠债不免除，关系 +2。",
+          "effects": {
+            "relations": 2,
+            "stress": -3
+          },
+          "flags": {
+            "debtHelp": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "agent",
+      "title": "你的新同事，不用睡觉",
+      "text": "公司开始试用能连续处理任务的 AI 代理。它还会出错，但已经能接走不少流程。老板问谁愿意负责检查它。",
+      "choices": [
+        {
+          "id": "learn",
+          "label": "学会检查它，别只会用它",
+          "text": "花 0.5 万，技能 +14，压力 +5；更有机会保住工作。",
+          "effects": {
+            "cash": -0.5,
+            "skill": 14,
+            "stress": 5
+          },
+          "flags": {
+            "ai": true,
+            "verifier": true
+          }
+        },
+        {
+          "id": "people",
+          "label": "去做客户真正需要人出面的事",
+          "text": "关系 +10，技能 +5；你的出路不只写提示词。",
+          "effects": {
+            "relations": 10,
+            "skill": 5
+          },
+          "flags": {
+            "humanWork": true
+          }
+        },
+        {
+          "id": "rest",
+          "label": "我先把身体养好再说",
+          "text": "健康 +5、压力 −8，技能不变；以后仍要面对岗位变化。",
+          "effects": {
+            "health": 5,
+            "stress": -8
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "energy-cheap",
+      "title": "电终于便宜了，账单却没全消失",
+      "text": "本局情景里，储能、电网和低碳发电跨过了成本门槛。这不是无限免费能源：供电更便宜，住房、照护和分配仍是难题。你的生活费每年少 0.6 万，城市也进入新一轮岗位调整。",
+      "choices": [
+        {
+          "id": "learn",
+          "label": "学点和新设备有关的东西",
+          "text": "花 0.4 万，技能 +10，压力 +3。",
+          "effects": {
+            "cash": -0.4,
+            "skill": 10,
+            "stress": 3
+          },
+          "flags": {
+            "energyTrade": true
+          }
+        },
+        {
+          "id": "life",
+          "label": "把省下的时间还给生活",
+          "text": "健康 +5、心情 +8，投入重心改成休息。",
+          "effects": {
+            "health": 5,
+            "mood": 8
+          },
+          "focus": "rest"
+        },
+        {
+          "id": "service",
+          "label": "去试试机器不擅长的服务",
+          "text": "关系 +10、技能 +5。",
+          "effects": {
+            "relations": 10,
+            "skill": 5
+          },
+          "flags": {
+            "humanWork": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "energy-tight",
+      "title": "AI 越跑越快，电网却没跟上",
+      "text": "本局没有出现便宜又稳定的供能突破。算力、制冷、交通都在争电，极端天气又增加了压力。生活费每年增加 0.3 万。",
+      "choices": [
+        {
+          "id": "adapt",
+          "label": "学节能和维修，干点实在的",
+          "text": "花 0.3 万，技能 +10，压力 +2。",
+          "effects": {
+            "cash": -0.3,
+            "skill": 10,
+            "stress": 2
+          },
+          "flags": {
+            "energyTrade": true
+          }
+        },
+        {
+          "id": "save",
+          "label": "缩小生活半径，别把自己耗干",
+          "text": "以后每年生活费少 0.4 万，心情 −2。",
+          "effects": {
+            "mood": -2
+          },
+          "expense": -0.4
+        },
+        {
+          "id": "neighbors",
+          "label": "和邻里一起做应急准备",
+          "text": "花 0.2 万，关系 +9，健康 +2。",
+          "effects": {
+            "cash": -0.2,
+            "relations": 9,
+            "health": 2
+          },
+          "flags": {
+            "prepared": true
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "dividend",
+      "title": "机器赚的钱，能分到你吗",
+      "text": "城市正在讨论自动化红利。投票结果由本局的社会情景决定，你只是其中一票；有便宜的机器，不等于人人都有它。",
+      "choices": [
+        {
+          "id": "public",
+          "label": "支持基本生活补助",
+          "text": "关系 +4、口碑 +3。之后是否通过，会在下一年的新闻里公布。",
+          "effects": {
+            "relations": 4,
+            "reputation": 3
+          }
+        },
+        {
+          "id": "owner",
+          "label": "我更想攒钱买生产资产",
+          "text": "技能 +4，压力 +2。只是明确方向，不会自动买入投资。",
+          "effects": {
+            "skill": 4,
+            "stress": 2
+          }
+        },
+        {
+          "id": "shorter",
+          "label": "我想要更短的工时",
+          "text": "心情 +5、压力 −3。收入之外，时间也是红利。",
+          "effects": {
+            "mood": 5,
+            "stress": -3
+          }
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "medicine-future",
+      "title": "新疗法能多给你几年好身体吗",
+      "text": "AI 辅助研发让一种治疗更容易找到合适的人，但长期效果仍有不确定性。医保没全覆盖，价钱很具体。",
+      "choices": [
+        {
+          "id": "pay",
+          "label": "花钱做经过验证的治疗",
+          "text": "花 4 万，健康 +22；游戏收益不代表现实医疗效果。",
+          "effects": {
+            "cash": -4,
+            "health": 22
+          }
+        },
+        {
+          "id": "basic",
+          "label": "用常规方案，把日常养好",
+          "text": "花 0.6 万，健康 +10、压力 −4。",
+          "effects": {
+            "cash": -0.6,
+            "health": 10,
+            "stress": -4
+          }
+        },
+        {
+          "id": "wait",
+          "label": "先等更多长期数据",
+          "text": "健康不变，压力 +2。",
+          "effects": {
+            "stress": 2
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>28"
+    },
+    {
+      "id": "digital",
+      "title": "“数字版的你”也能接单了",
+      "text": "平台说，可以用你的经验训练一个分身。它能替你接一些小活，也可能以你的名义说错话。",
+      "choices": [
+        {
+          "id": "yes",
+          "label": "开，但每周自己检查",
+          "text": "花 0.5 万，今后退休后每年副业多 1.2 万，压力 +4。",
+          "effects": {
+            "cash": -0.5,
+            "skill": 5,
+            "stress": 4
+          },
+          "flags": {
+            "retireWork": true,
+            "digital": true
+          }
+        },
+        {
+          "id": "limited",
+          "label": "只当工具，不让它代表我",
+          "text": "花 0.1 万，技能 +4、压力 −2。",
+          "effects": {
+            "cash": -0.1,
+            "skill": 4,
+            "stress": -2
+          }
+        },
+        {
+          "id": "no",
+          "label": "不了，我不想随时营业",
+          "text": "心情 +6、压力 −5。",
+          "effects": {
+            "mood": 6,
+            "stress": -5
+          }
+        }
+      ],
+      "condition": "s=>s.elapsed>25"
+    },
+    {
+      "id": "choice-after",
+      "title": "如果不用把全部时间卖掉，你想干什么",
+      "text": "技术让一部分生活变便宜了，稀缺的东西却换了名字：好位置、人的信任、被需要的感觉。你打开一个空白日历。",
+      "choices": [
+        {
+          "id": "care",
+          "label": "陪人，比再多一笔钱重要",
+          "text": "关系 +12、心情 +8。",
+          "effects": {
+            "relations": 12,
+            "mood": 8
+          }
+        },
+        {
+          "id": "build",
+          "label": "做一个没老板催的小东西",
+          "text": "花 0.3 万，技能 +9、心情 +6。",
+          "effects": {
+            "cash": -0.3,
+            "skill": 9,
+            "mood": 6
+          }
+        },
+        {
+          "id": "work",
+          "label": "我还是喜欢做事和挣钱",
+          "text": "压力 +4、口碑 +4，技能 +3。",
+          "effects": {
+            "stress": 4,
+            "reputation": 4,
+            "skill": 3
+          }
+        }
+      ],
+      "condition": "s=>s.era.energy==='cheap'&&s.elapsed>35"
+    },
+    {
+      "id": "older-job",
+      "title": "年轻人也焦虑，你也焦虑",
+      "text": "招聘软件把你归进了“经验丰富”那一栏，邀请却少了。AI 学得快，人不可能永远像刚毕业那样熬。",
+      "choices": [
+        {
+          "id": "mentor",
+          "label": "带新人，靠经验吃饭",
+          "text": "技能 +4、关系 +8；获得更适合转型的经历。",
+          "effects": {
+            "skill": 4,
+            "relations": 8
+          },
+          "flags": {
+            "humanWork": true
+          }
+        },
+        {
+          "id": "update",
+          "label": "再学一轮，量力而行",
+          "text": "花 0.3 万，技能 +10、压力 +6。",
+          "effects": {
+            "cash": -0.3,
+            "skill": 10,
+            "stress": 6
+          },
+          "flags": {
+            "ai": true
+          }
+        },
+        {
+          "id": "reduce",
+          "label": "少赚一点，身体先别垮",
+          "text": "年薪 −0.6 万，健康 +5、压力 −8。",
+          "effects": {
+            "salary": -0.6,
+            "health": 5,
+            "stress": -8
+          }
+        }
+      ],
+      "condition": "s=>s.player.age>=45&&s.player.age<63"
+    },
+    {
+      "id": "home-repair",
+      "title": "水退了，家里还没缓过来",
+      "text": "上次进水以后，柜子底下总有一股潮味。隔壁开始加挡水板、抬高插座。你也得想想，下次下雨怎么办。",
+      "choices": [
+        {
+          "id": "fix",
+          "label": "花钱做一次防水改造",
+          "text": "花 0.8 万，以后的暴雨、台风财损先减少 30%，剩下的再按保险赔；地震不减。",
+          "effects": {
+            "cash": -0.8,
+            "stress": -3
+          },
+          "flags": {
+            "homePrepared": true
+          }
+        },
+        {
+          "id": "together",
+          "label": "和邻居一起整理排水口",
+          "text": "不额外花钱，关系 +7、健康 −1；自家防水没有升级。",
+          "effects": {
+            "relations": 7,
+            "health": -1
+          },
+          "flags": {
+            "volunteer": true
+          }
+        },
+        {
+          "id": "later",
+          "label": "先把生活恢复，改造以后再说",
+          "text": "压力 +3，保留手里的钱。",
+          "effects": {
+            "stress": 3
+          }
+        }
+      ],
+      "condition": "s=>s.flags.wetHome&&s.elapsed>s.flags.wetHomeYear"
+    },
+    {
+      "id": "heat-home",
+      "title": "空调开了，电费也追上来了",
+      "text": "上次热得睡不好，你开始看遮阳、通风和屋顶隔热。外面的天气管不了，家里的夏天也许能好过一点。",
+      "choices": [
+        {
+          "id": "shade",
+          "label": "做遮阳和隔热",
+          "text": "花 0.6 万，以后年度生活费少 0.12 万，高温事件的健康损失减半。",
+          "effects": {
+            "cash": -0.6,
+            "health": 2
+          },
+          "expense": -0.12,
+          "flags": {
+            "heatProtected": true
+          }
+        },
+        {
+          "id": "center",
+          "label": "和街坊约好去避暑点",
+          "text": "关系 +6、压力 −3，下次高温仍要自己安排。",
+          "effects": {
+            "relations": 6,
+            "stress": -3
+          }
+        },
+        {
+          "id": "no",
+          "label": "暂时不改，先把钱留着",
+          "text": "心情 −2，不新增开支。",
+          "effects": {
+            "mood": -2
+          }
+        }
+      ],
+      "condition": "s=>s.flags.heatExperienced&&s.elapsed>s.flags.heatYear"
+    },
+    {
+      "id": "work-referral",
+      "title": "以前搭过手的人，给你发来一条招聘",
+      "text": "对方记得你办事靠谱，知道你最近没工作，把一个岗位推给了你。工资不算惊艳，但不用再对着空白收件箱发愣。",
+      "choices": [
+        {
+          "id": "take",
+          "label": "先去，把日子接上",
+          "text": "找到年薪 9 万的协调服务工作，不带审批权；压力 −5。",
+          "effects": {
+            "stress": -5
+          },
+          "employ": true,
+          "salarySet": 9,
+          "job": "服务协调员",
+          "flags": {
+            "humanWork": true
+          },
+          "clearPower": true
+        },
+        {
+          "id": "try",
+          "label": "先接些临时活，再看看",
+          "text": "存款 +0.8 万、关系 +3；仍没有正式工作。",
+          "effects": {
+            "cash": 0.8,
+            "relations": 3
+          }
+        },
+        {
+          "id": "learn",
+          "label": "谢谢，我还想再准备一下",
+          "text": "技能 +4，关系 +2。",
+          "effects": {
+            "skill": 4,
+            "relations": 2
+          }
+        }
+      ],
+      "condition": "s=>!s.employed&&!s.prison&&s.player.age<65&&(s.flags.helper||s.flags.volunteer||s.player.relations>=65)"
+    },
+    {
+      "id": "loan-followup",
+      "title": "钱没收回来，人还要不要见",
+      "text": "那笔借款拖了很久。今天有人拉了一个聚餐群，你和借钱的朋友都在。对方还没解释，你已经有点累了。",
+      "choices": [
+        {
+          "id": "ask",
+          "label": "把欠款和关系分开说清楚",
+          "text": "技能 +3，压力 +2；不保证要回钱，不再追加借款。",
+          "effects": {
+            "skill": 3,
+            "stress": 2
+          }
+        },
+        {
+          "id": "distance",
+          "label": "以后少来往，先照顾自己",
+          "text": "关系 −3、压力 −5，不免除也不追回原借款。",
+          "effects": {
+            "relations": -3,
+            "stress": -5
+          }
+        },
+        {
+          "id": "peace",
+          "label": "放下这件事，别再耗着",
+          "text": "心情 +5、压力 −4，已经损失的钱不会回来。",
+          "effects": {
+            "mood": 5,
+            "stress": -4
+          }
+        }
+      ],
+      "condition": "s=>s.flags.friendDefault"
+    },
+    {
+      "id": "job-office",
+      "title": "老板说：预算紧，活还得干",
+      "text": "部门要上线一个新流程。你能把重复工作做快一点，也能先争取别把省下的时间全变成加班。",
+      "choices": [
+        {
+          "id": "learn",
+          "label": "学会新流程，也把复核做好",
+          "text": "技能 +8、压力 +3，年薪 +0.6 万。",
+          "effects": {
+            "skill": 8,
+            "stress": 3,
+            "salary": 0.6
+          },
+          "careerRoles": [
+            "office"
+          ]
+        },
+        {
+          "id": "boundary",
+          "label": "把分工和下班时间谈清楚",
+          "text": "压力 −6、口碑 +3。",
+          "effects": {
+            "stress": -6,
+            "reputation": 3
+          },
+          "careerRoles": [
+            "office"
+          ]
+        },
+        {
+          "id": "push",
+          "label": "这次我先多接一点",
+          "text": "年薪 +1.2 万，健康 −3、压力 +8。",
+          "effects": {
+            "salary": 1.2,
+            "health": -3,
+            "stress": 8
+          },
+          "careerRoles": [
+            "office"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-hands",
+      "title": "新设备，维修师傅也得学",
+      "text": "车间换了套设备。熟练的手还重要，只靠过去的经验又有点不够。",
+      "choices": [
+        {
+          "id": "train",
+          "label": "花点钱，把新东西学扎实",
+          "text": "花 0.4 万，技能 +12，年薪 +0.6 万。",
+          "effects": {
+            "cash": -0.4,
+            "skill": 12,
+            "salary": 0.6
+          },
+          "careerRoles": [
+            "hands"
+          ]
+        },
+        {
+          "id": "pair",
+          "label": "和同事互相带一带",
+          "text": "技能 +6、关系 +6。",
+          "effects": {
+            "skill": 6,
+            "relations": 6
+          },
+          "careerRoles": [
+            "hands"
+          ]
+        },
+        {
+          "id": "pace",
+          "label": "先把安全和节奏稳住",
+          "text": "健康 +3、压力 −5。",
+          "effects": {
+            "health": 3,
+            "stress": -5
+          },
+          "careerRoles": [
+            "hands"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-community",
+      "title": "街坊又来问：这事到底找谁",
+      "text": "一个办事环节让老人来回跑了几趟。你没有决定所有规则的权限，但可以决定自己这一步怎么做。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "把流程梳理清楚，帮忙接上",
+          "text": "关系 +9、口碑 +6，压力 +3。",
+          "effects": {
+            "relations": 9,
+            "reputation": 6,
+            "stress": 3
+          },
+          "careerRoles": [
+            "service"
+          ]
+        },
+        {
+          "id": "record",
+          "label": "整理常见问题，发一份清单",
+          "text": "技能 +5、口碑 +4。",
+          "effects": {
+            "skill": 5,
+            "reputation": 4
+          },
+          "careerRoles": [
+            "service"
+          ]
+        },
+        {
+          "id": "shift",
+          "label": "先把手头的排班安排好",
+          "text": "压力 −4、健康 +2。",
+          "effects": {
+            "stress": -4,
+            "health": 2
+          },
+          "careerRoles": [
+            "service"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-shop",
+      "title": "客流少了，店租没少",
+      "text": "隔壁换了招牌，你也开始重新看自己的小店。忙不忙和赚不赚钱，有时候真是两回事。",
+      "choices": [
+        {
+          "id": "online",
+          "label": "小范围试试线上订单",
+          "text": "从店里周转金投入 3 万；以后营业规模 +8%，你多一份操心。",
+          "effects": {
+            "stress": 4
+          },
+          "businessCost": 3,
+          "roleOp": "grow",
+          "careerRoles": [
+            "shop"
+          ]
+        },
+        {
+          "id": "cost",
+          "label": "先把损耗和采购算细一点",
+          "text": "不花个人存款，今后经营成本降低 3%，技能 +5。",
+          "effects": {
+            "skill": 5
+          },
+          "roleOp": "efficient",
+          "careerRoles": [
+            "shop"
+          ]
+        },
+        {
+          "id": "stay",
+          "label": "保住老顾客，别急着扩张",
+          "text": "关系 +5、压力 −3，暂不改变规模。",
+          "effects": {
+            "relations": 5,
+            "stress": -3
+          },
+          "careerRoles": [
+            "shop"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-owner",
+      "title": "订单到了，回款还没到",
+      "text": "账面上有收入，员工工资却要按时发。你得决定先守现金流，还是继续扩张。",
+      "choices": [
+        {
+          "id": "buffer",
+          "label": "不抢新单，先把经营做稳",
+          "text": "公司成本降低 3%，口碑 +4。",
+          "effects": {
+            "reputation": 4
+          },
+          "roleOp": "efficient",
+          "careerRoles": [
+            "owner"
+          ]
+        },
+        {
+          "id": "grow",
+          "label": "从公司资金拿 40 万扩设备",
+          "text": "公司资金 −40 万，以后营业规模 +8%；个人存款不扣。",
+          "effects": {
+            "stress": 6
+          },
+          "businessCost": 40,
+          "roleOp": "grow",
+          "careerRoles": [
+            "owner"
+          ]
+        },
+        {
+          "id": "team",
+          "label": "把情况向团队讲明白",
+          "text": "口碑 +6、压力 +2。",
+          "effects": {
+            "reputation": 6,
+            "stress": 2
+          },
+          "careerRoles": [
+            "owner"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-freelance",
+      "title": "客户：能不能先做一版看看",
+      "text": "一份新需求看着不小，付款条款却写得很轻。你的时间和现金，都需要有边界。",
+      "choices": [
+        {
+          "id": "terms",
+          "label": "先把范围和付款节点谈好",
+          "text": "技能 +7，今后接单能力 +5%。",
+          "effects": {
+            "skill": 7
+          },
+          "roleOp": "freelance-up",
+          "careerRoles": [
+            "freelance"
+          ]
+        },
+        {
+          "id": "trial",
+          "label": "做一个有限的小样",
+          "text": "花 0.1 万，口碑 +5、压力 +3。",
+          "effects": {
+            "cash": -0.1,
+            "reputation": 5,
+            "stress": 3
+          },
+          "careerRoles": [
+            "freelance"
+          ]
+        },
+        {
+          "id": "no",
+          "label": "不接这个，留时间找合适的",
+          "text": "压力 −5，心情 +3。",
+          "effects": {
+            "stress": -5,
+            "mood": 3
+          },
+          "careerRoles": [
+            "freelance"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-nurse",
+      "title": "这次夜班，能不能再顶一下",
+      "text": "排班又缺了人。奖金会多一点，但你的身体和家里的人也在等你。",
+      "choices": [
+        {
+          "id": "take",
+          "label": "这次顶上，但不当成常态",
+          "text": "本次加班收入 0.8 万，健康 −4、压力 +7。",
+          "effects": {
+            "cash": 0.8,
+            "health": -4,
+            "stress": 7
+          },
+          "careerRoles": [
+            "nurse"
+          ]
+        },
+        {
+          "id": "rotate",
+          "label": "和同事重新协调轮班",
+          "text": "关系 +6、压力 −4，技能 +2。",
+          "effects": {
+            "relations": 6,
+            "stress": -4,
+            "skill": 2
+          },
+          "careerRoles": [
+            "nurse"
+          ]
+        },
+        {
+          "id": "rest",
+          "label": "说明身体情况，先休息",
+          "text": "健康 +4、压力 −6。",
+          "effects": {
+            "health": 4,
+            "stress": -6
+          },
+          "careerRoles": [
+            "nurse"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-teacher",
+      "title": "放学以后，消息还没停",
+      "text": "家长群里有人着急，班里的孩子也各有各的难处。你想把课教好，又不能一天二十四小时都在线。",
+      "choices": [
+        {
+          "id": "plan",
+          "label": "把沟通时间和教学安排写清楚",
+          "text": "技能 +6、口碑 +5。",
+          "effects": {
+            "skill": 6,
+            "reputation": 5
+          },
+          "careerRoles": [
+            "teacher"
+          ]
+        },
+        {
+          "id": "extra",
+          "label": "再留一点时间，做针对性辅导",
+          "text": "关系 +5、口碑 +6，压力 +6、健康 −2。",
+          "effects": {
+            "relations": 5,
+            "reputation": 6,
+            "stress": 6,
+            "health": -2
+          },
+          "careerRoles": [
+            "teacher"
+          ]
+        },
+        {
+          "id": "pace",
+          "label": "把休息也排进日程",
+          "text": "压力 −5、健康 +3。",
+          "effects": {
+            "stress": -5,
+            "health": 3
+          },
+          "careerRoles": [
+            "teacher"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-farmer",
+      "title": "天气预报，又变了一次",
+      "text": "农时等不了太久。你看了看地里的情况，又看了看周转金。准备得更好，也不能保证每一季都赚钱。",
+      "choices": [
+        {
+          "id": "prepare",
+          "label": "添一点灌溉和防护设备",
+          "text": "从经营资金投入 2 万，以后收成波动带来的损失有所缓冲。",
+          "effects": {
+            "skill": 4
+          },
+          "businessCost": 2,
+          "roleOp": "farm-protect",
+          "careerRoles": [
+            "farmer"
+          ]
+        },
+        {
+          "id": "cooperate",
+          "label": "和周边农户一起采购、找销路",
+          "text": "今后成本降低 3%，关系 +7。",
+          "effects": {
+            "relations": 7
+          },
+          "roleOp": "efficient",
+          "careerRoles": [
+            "farmer"
+          ]
+        },
+        {
+          "id": "save",
+          "label": "先留现金，照顾好这一季",
+          "text": "压力 −2，不增加投入。",
+          "effects": {
+            "stress": -2
+          },
+          "careerRoles": [
+            "farmer"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-engineer",
+      "title": "项目催进度，验收却不能省",
+      "text": "交付日期在眼前，几项检查还没做完。能不能早点交，和能不能安心签字，是两件事。",
+      "choices": [
+        {
+          "id": "quality",
+          "label": "把质量检查做完，再签字",
+          "text": "技能 +7、口碑 +7、压力 +4。",
+          "effects": {
+            "skill": 7,
+            "reputation": 7,
+            "stress": 4
+          },
+          "careerRoles": [
+            "engineer"
+          ]
+        },
+        {
+          "id": "coordinate",
+          "label": "重新谈排期，别让风险藏起来",
+          "text": "关系 +5、口碑 +4，压力 −2。",
+          "effects": {
+            "relations": 5,
+            "reputation": 4,
+            "stress": -2
+          },
+          "careerRoles": [
+            "engineer"
+          ]
+        },
+        {
+          "id": "buffer",
+          "label": "把自己能复核的部分先稳住",
+          "text": "技能 +4、压力 −3。",
+          "effects": {
+            "skill": 4,
+            "stress": -3
+          },
+          "careerRoles": [
+            "engineer"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-civil",
+      "title": "熟人说：帮忙快一点就行",
+      "text": "你负责的一项审核刚好卡着进度。熟人想让你先过一下，还把“感谢”说得很自然。",
+      "choices": [
+        {
+          "id": "fair",
+          "label": "按同一套要求办，也说清原因",
+          "text": "口碑 +7、压力 +2。",
+          "effects": {
+            "reputation": 7,
+            "stress": 2
+          },
+          "careerRoles": [
+            "civil"
+          ]
+        },
+        {
+          "id": "take",
+          "label": "收下 1.2 万，赌不会追查",
+          "text": "个人存款 +1.2 万，留下利益输送记录；未来四年每年 28% 概率被追查，可能罚款和失去岗位。",
+          "effects": {
+            "cash": 1.2,
+            "stress": 8,
+            "reputation": -5
+          },
+          "case": {
+            "kind": "corrupt",
+            "amount": 1.2,
+            "years": 4,
+            "chance": 0.28
+          },
+          "flags": {
+            "corrupt": true
+          },
+          "careerRoles": [
+            "civil"
+          ]
+        },
+        {
+          "id": "improve",
+          "label": "把真实堵点反馈到流程里",
+          "text": "技能 +5、口碑 +5。",
+          "effects": {
+            "skill": 5,
+            "reputation": 5
+          },
+          "careerRoles": [
+            "civil"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-mayor",
+      "title": "公共预算，先解决哪件事",
+      "text": "排水、避暑、岗位支持，居民的需求都是真的。但公共预算不是一张无限额的卡，更不是你的私人账户。",
+      "choices": [
+        {
+          "id": "resilience",
+          "label": "优先排水和避暑设施",
+          "text": "公共预算支出 500 万，居民信任 +8。往后洪水和台风财损更小，个人存款不扣。",
+          "effects": {},
+          "publicCost": 500,
+          "roleOp": "city-resilience",
+          "careerRoles": [
+            "mayor"
+          ]
+        },
+        {
+          "id": "jobs",
+          "label": "先做本地岗位与小店支持",
+          "text": "公共预算支出 300 万，居民信任 +6，本局城市生活条件小幅改善。",
+          "effects": {},
+          "publicCost": 300,
+          "roleOp": "city-jobs",
+          "careerRoles": [
+            "mayor"
+          ]
+        },
+        {
+          "id": "listen",
+          "label": "先公开账本，按需求排优先级",
+          "text": "不新增公共支出，居民信任 +3、技能 +4。",
+          "effects": {
+            "skill": 4
+          },
+          "roleOp": "city-open",
+          "careerRoles": [
+            "mayor"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-mayor-term",
+      "title": "这一任做得怎样，要交一份答卷",
+      "text": "任期到了。居民在看结果，也在看过程。是否继续任职，按本局的公众反馈决定，不是你点一下就能保证。",
+      "choices": [
+        {
+          "id": "stand",
+          "label": "公开交账，争取继续任职",
+          "text": "游戏续任概率等于居民信任，最低 15%、最高 85%；未通过则离任，公共预算不能再支配。",
+          "effects": {},
+          "roleOp": "mayor-stand",
+          "careerRoles": [
+            "mayor"
+          ]
+        },
+        {
+          "id": "leave",
+          "label": "完成交接，回到个人生活",
+          "text": "主动离任，停止本岗位工资与预算权限；以后可以找新工作。",
+          "effects": {
+            "stress": -8
+          },
+          "roleOp": "leave-public",
+          "careerRoles": [
+            "mayor"
+          ]
+        },
+        {
+          "id": "audit",
+          "label": "先接受独立复核，再参与评议",
+          "text": "公共预算花 80 万进行复核，信任 +5，再按同一规则评议。",
+          "effects": {},
+          "publicCost": 80,
+          "roleOp": "mayor-audit",
+          "careerRoles": [
+            "mayor"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "job-business-trouble",
+      "title": "周转金，真的撑不下去了",
+      "text": "生意的欠款越滚越多。你可以拿个人的钱去救，也可以缩小经营，或者承认这次该停下来。公司和店里的欠款，单独记在经营账里。",
+      "choices": [
+        {
+          "id": "rescue",
+          "label": "拿个人的 5 万补一补",
+          "text": "个人存款 −5 万，经营资金先清偿欠款，剩下的留作周转；不保证往后赚钱。",
+          "effects": {
+            "cash": -5
+          },
+          "roleOp": "rescue",
+          "careerRoles": [
+            "shop",
+            "owner",
+            "farmer"
+          ]
+        },
+        {
+          "id": "shrink",
+          "label": "缩小规模，把固定成本压下来",
+          "text": "以后营业规模 −10%、成本降低 15%；已有经营欠款不自动消失。",
+          "effects": {
+            "stress": 3
+          },
+          "roleOp": "shrink",
+          "careerRoles": [
+            "shop",
+            "owner",
+            "farmer"
+          ]
+        },
+        {
+          "id": "close",
+          "label": "停业清理，重新找一条路",
+          "text": "经营资金用于处置经营欠款，退出生意。本局简化为无新增个人连带债务；已有个人欠款照常保留。",
+          "effects": {
+            "stress": -6,
+            "reputation": -3
+          },
+          "roleOp": "close",
+          "careerRoles": [
+            "shop",
+            "owner",
+            "farmer"
+          ]
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-meet",
+      "title": "有个人，你开始想多聊几句",
+      "text": "你和{partner}最近经常碰面。没有命中注定的配乐，只是聊天时不用刻意找话题，分开后又会想起对方。",
+      "choices": [
+        {
+          "id": "date",
+          "label": "约个散步，慢慢了解",
+          "text": "不额外花钱。开始相处，亲密度 58；以后每年约会与相处开销 0.24 万。",
+          "effects": {
+            "mood": 5
+          },
+          "familyOp": "date"
+        },
+        {
+          "id": "friend",
+          "label": "先做朋友，别急着定义",
+          "text": "关系 +4，暂不开始恋爱。三年后可以再遇到机会，也可以主动改变打算。",
+          "effects": {
+            "relations": 4
+          },
+          "familyOp": "later"
+        },
+        {
+          "id": "single",
+          "label": "现在更想一个人过",
+          "text": "心情 +4。不会被自动安排结婚或生育；以后想法变了，也可以自己再聊打算。",
+          "effects": {
+            "mood": 4
+          },
+          "familyOp": "solo"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-commit",
+      "title": "“以后，我们要不要一起过？”",
+      "text": "你和{partner}相处了一段时间。聊到未来时，话题终于从下周吃什么，变成住在哪里、钱怎么花，以及要不要结婚。",
+      "choices": [
+        {
+          "id": "marry",
+          "label": "结婚，简单办就好",
+          "text": "花 0.3 万登记、吃顿饭，亲密度 +10。共同生活的额外支出，你每年承担 0.36 万，不计入伴侣工资。",
+          "effects": {
+            "cash": -0.3,
+            "mood": 5
+          },
+          "familyOp": "marry"
+        },
+        {
+          "id": "partner",
+          "label": "认真在一起，但先不结婚",
+          "text": "不额外花钱，亲密度 +8。共同生活每年你多承担 0.36 万；没有婚姻登记，也能讨论养育孩子。",
+          "effects": {
+            "mood": 4
+          },
+          "familyOp": "partner"
+        },
+        {
+          "id": "wait",
+          "label": "还想再相处一阵",
+          "text": "不急着做决定，亲密度 +2。三年后再谈，也可以主动聊。",
+          "effects": {},
+          "familyOp": "commit-later"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-register",
+      "title": "住在一起这些年，要不要登记？",
+      "text": "你和{partner}已经一起过了几年。再聊起婚姻，考虑的不只是仪式，还有各自对承诺和生活安排的想法。",
+      "choices": [
+        {
+          "id": "yes",
+          "label": "这次，我们去登记",
+          "text": "花 0.1 万办理和纪念，亲密度 +10；共同生活预算不额外重复增加。",
+          "effects": {
+            "cash": -0.1,
+            "mood": 4
+          },
+          "familyOp": "marry"
+        },
+        {
+          "id": "no",
+          "label": "保持现在的关系，也认真承担",
+          "text": "不额外花钱，亲密度 +4，不自动安排婚姻登记。",
+          "effects": {},
+          "familyOp": "stay-partner"
+        },
+        {
+          "id": "talk",
+          "label": "先聊清楚彼此在意什么",
+          "text": "亲密度 +6、压力 −2，暂不登记。",
+          "effects": {
+            "stress": -2
+          },
+          "familyOp": "talk"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-wedding",
+      "title": "婚礼这件事，想怎么留个纪念",
+      "text": "登记以后，亲友开始问什么时候摆酒。{partner}想听听你的打算。你们已经是家人，不需要靠账单来证明。",
+      "choices": [
+        {
+          "id": "party",
+          "label": "请亲友一起热闹一回",
+          "text": "花 2 万，关系 +8、心情 +6；不代表比简单办更相爱。",
+          "effects": {
+            "cash": -2,
+            "relations": 8,
+            "mood": 6
+          },
+          "familyOp": "celebrate"
+        },
+        {
+          "id": "trip",
+          "label": "留个周末，出去走走",
+          "text": "花 0.4 万，心情 +6、压力 −4，亲密度 +5。",
+          "effects": {
+            "cash": -0.4,
+            "mood": 6,
+            "stress": -4
+          },
+          "familyOp": "celebrate"
+        },
+        {
+          "id": "meal",
+          "label": "在家做顿饭，认真拍张合照",
+          "text": "不额外花钱，心情 +4、亲密度 +5。",
+          "effects": {
+            "mood": 4
+          },
+          "familyOp": "celebrate"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-children",
+      "title": "“我们想不想养一个孩子？”",
+      "text": "你和{partner}第一次认真谈起孩子。想要陪伴，也担心钱和时间；不想要孩子，也不代表这段关系缺了什么。",
+      "choices": [
+        {
+          "id": "yes",
+          "label": "想，但先把钱和照护安排讲清楚",
+          "text": "进入养育计划，之后再选准备生育还是申请收养。现在不会立刻有孩子。",
+          "effects": {},
+          "familyOp": "want-child"
+        },
+        {
+          "id": "later",
+          "label": "先不，给生活多留一点余地",
+          "text": "至少三年内不再自动追问。亲密度 +3，之后仍可主动重谈。",
+          "effects": {
+            "stress": -3
+          },
+          "familyOp": "child-later"
+        },
+        {
+          "id": "no",
+          "label": "不打算要，认真过两个人的生活",
+          "text": "亲密度 +3。以后不会自动触发生育计划，除非你主动改变打算。",
+          "effects": {
+            "mood": 4
+          },
+          "familyOp": "child-no"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-plan",
+      "title": "迎接孩子之前，先把现实摊开",
+      "text": "你们把预算和作息写在纸上：谁来照顾、工作怎么办、手头的钱够不够。这是这局的家庭计划，不是现实生育或收养流程。",
+      "choices": [
+        {
+          "id": "birth",
+          "label": "准备生育，迎接新成员",
+          "text": "花 0.5 万准备。游戏中一年后迎来孩子，另有 1.2 万初期支出；0—5 岁时，你每年另承担 1.8 万养育费。",
+          "effects": {
+            "cash": -0.5
+          },
+          "familyOp": "plan-birth",
+          "familyRequires": "birth"
+        },
+        {
+          "id": "adopt",
+          "label": "申请收养，等待评估",
+          "text": "花 0.3 万准备。两年后按游戏情景完成评估，70% 获批，届时另付 1 万安置费，孩子初始 3 岁；不保证一定通过。",
+          "effects": {
+            "cash": -0.3
+          },
+          "familyOp": "plan-adopt",
+          "familyRequires": "adopt"
+        },
+        {
+          "id": "wait",
+          "label": "我们还没准备好，先缓一缓",
+          "text": "不新增费用，不安排孩子。三年后可以再谈。",
+          "effects": {
+            "stress": -3
+          },
+          "familyOp": "child-later"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-care",
+      "title": "孩子睡了，工作群又响了",
+      "text": "家里多了一个小人之后，时间好像被切得更碎。照顾不是只有你一个人的责任，但你得决定自己拿出多少时间和钱。",
+      "choices": [
+        {
+          "id": "share",
+          "label": "把轮流照护的时间谈明白",
+          "text": "压力 −5、亲密度 +8、亲子关系 +8；年薪少 0.6 万，换一点弹性时间。",
+          "effects": {
+            "salary": -0.6,
+            "stress": -5
+          },
+          "familyOp": "care-share"
+        },
+        {
+          "id": "help",
+          "label": "找可信的人帮忙照护",
+          "text": "亲密度 +5、压力 −4；孩子未满 6 岁时，你每年额外承担 0.6 万照护费。",
+          "effects": {
+            "stress": -4
+          },
+          "familyOp": "care-help"
+        },
+        {
+          "id": "work",
+          "label": "先拼收入，空下来再补陪伴",
+          "text": "年薪 +0.6 万、压力 +6；亲密度 −6、亲子关系 −7。以后可以用陪伴重心慢慢修复。",
+          "effects": {
+            "salary": 0.6,
+            "stress": 6
+          },
+          "familyOp": "care-work"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-school",
+      "title": "孩子第一次背上书包",
+      "text": "校门口人很多。你才发现，自己关心的不只是成绩，还有这个小人能不能适应一个新世界。",
+      "choices": [
+        {
+          "id": "support",
+          "label": "先陪TA适应，学习慢慢来",
+          "text": "花 0.3 万买用品、安排接送，亲子关系 +10。",
+          "effects": {
+            "cash": -0.3,
+            "mood": 4
+          },
+          "familyOp": "child-support"
+        },
+        {
+          "id": "classes",
+          "label": "先报几门课，别落在后面",
+          "text": "花 1.2 万，压力 +4、亲子关系 −4。花得更多，不保证孩子更开心。",
+          "effects": {
+            "cash": -1.2,
+            "stress": 4
+          },
+          "familyOp": "child-push"
+        },
+        {
+          "id": "listen",
+          "label": "听TA说学校里的事",
+          "text": "不额外花钱，亲子关系 +7、压力 −2。",
+          "effects": {
+            "stress": -2
+          },
+          "familyOp": "child-listen"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-teen",
+      "title": "“你能不能先听我讲完？”",
+      "text": "孩子开始有不想告诉你的事。你想关心，对方却觉得你每句话都是安排。关系不是小时候那样，抱一下就会好。",
+      "choices": [
+        {
+          "id": "listen",
+          "label": "先别讲道理，听完再说",
+          "text": "亲子关系 +14、压力 −3。",
+          "effects": {
+            "stress": -3
+          },
+          "familyOp": "teen-listen"
+        },
+        {
+          "id": "gift",
+          "label": "买点东西，试着缓和一下",
+          "text": "花 0.3 万，亲子关系 +3。礼物能表达心意，替代不了谈话。",
+          "effects": {
+            "cash": -0.3
+          },
+          "familyOp": "teen-gift"
+        },
+        {
+          "id": "control",
+          "label": "我有经验，还是该按我说的来",
+          "text": "亲子关系 −12、压力 +4。",
+          "effects": {
+            "stress": 4
+          },
+          "familyOp": "teen-control"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-grown",
+      "title": "孩子成年了，路要怎么选",
+      "text": "TA拿来了几个不同的打算。学什么、去哪儿、怎么承担开销，都是人生第一次自己做的大决定。",
+      "choices": [
+        {
+          "id": "help",
+          "label": "量力支持，也留出试错空间",
+          "text": "花 1.2 万，亲子关系 +10、心情 +4。",
+          "effects": {
+            "cash": -1.2,
+            "mood": 4
+          },
+          "familyOp": "grown-help"
+        },
+        {
+          "id": "budget",
+          "label": "把预算摊开，一起定承担办法",
+          "text": "花 0.3 万，亲子关系 +7。坦白手头有限，不等于不支持。",
+          "effects": {
+            "cash": -0.3
+          },
+          "familyOp": "grown-budget"
+        },
+        {
+          "id": "respect",
+          "label": "听完打算，尊重TA自己选",
+          "text": "不额外花钱，亲子关系 +5、压力 −3。",
+          "effects": {
+            "stress": -3
+          },
+          "familyOp": "grown-respect"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-leave",
+      "title": "家里安静了一点",
+      "text": "孩子有了自己的住处和生活。你一边觉得轻松，一边又习惯性多买了一份菜。22 岁起，游戏中的固定养育费停止。",
+      "choices": [
+        {
+          "id": "gift",
+          "label": "有余力的话，帮一笔安家费",
+          "text": "花 2 万，亲子关系 +8。",
+          "effects": {
+            "cash": -2
+          },
+          "familyOp": "leave-help"
+        },
+        {
+          "id": "visit",
+          "label": "约好偶尔吃饭，各过各的日子",
+          "text": "不额外花钱，心情 +5、亲子关系 +6。",
+          "effects": {
+            "mood": 5
+          },
+          "familyOp": "leave-visit"
+        },
+        {
+          "id": "worry",
+          "label": "总想多问几句，忍不住替TA担心",
+          "text": "压力 +5、亲子关系 −3。",
+          "effects": {
+            "stress": 5
+          },
+          "familyOp": "leave-worry"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-friction",
+      "title": "明明住在一起，却像很久没说过话",
+      "text": "最近你和{partner}说得最多的是账单和待办。谁都觉得自己很累，谁也没被好好听见。要怎么处理，不能只靠时间拖过去。",
+      "choices": [
+        {
+          "id": "talk",
+          "label": "认真谈一次，重新分工",
+          "text": "亲密度 +16、压力 −4。不自动辞职，也不假装所有问题都解决了。",
+          "effects": {
+            "stress": -4
+          },
+          "familyOp": "repair"
+        },
+        {
+          "id": "help",
+          "label": "找咨询支持，一起梳理",
+          "text": "花 0.2 万，亲密度 +22、压力 −6。",
+          "effects": {
+            "cash": -0.2,
+            "stress": -6
+          },
+          "familyOp": "repair-help"
+        },
+        {
+          "id": "separate",
+          "label": "谈清楚分开，之后各自生活",
+          "text": "花 0.3 万搬家和整理，不足记为欠款，关系结束。有孩子时继续承担自己的养育费；不抹去过去，也不自动分走个人存款。",
+          "effects": {
+            "cash": -0.3,
+            "mood": -5,
+            "stress": -4
+          },
+          "familyOp": "separate",
+          "allowDebt": true
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-childfree",
+      "title": "又一个周末，只属于你们自己",
+      "text": "你们没有孩子，也没有等着补齐什么。朋友有朋友的忙碌，你和{partner}在商量，接下来的时间想怎么过。",
+      "choices": [
+        {
+          "id": "trip",
+          "label": "攒点时间，一起出去走走",
+          "text": "花 0.4 万，亲密度 +8、心情 +7。",
+          "effects": {
+            "cash": -0.4,
+            "mood": 7
+          },
+          "familyOp": "two-time"
+        },
+        {
+          "id": "home",
+          "label": "把普通的一天过舒服",
+          "text": "不额外花钱，亲密度 +6、健康 +3。",
+          "effects": {
+            "health": 3
+          },
+          "familyOp": "two-home"
+        },
+        {
+          "id": "friends",
+          "label": "约朋友来吃顿饭",
+          "text": "花 0.1 万，关系 +7、亲密度 +4。",
+          "effects": {
+            "cash": -0.1,
+            "relations": 7
+          },
+          "familyOp": "two-friends"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-later",
+      "title": "这么多年了，还想一起去哪儿",
+      "text": "你和{partner}翻着旧照片，有些地方没去成，有些争执已经记不清了。未来的计划不必很大，也能认真商量。",
+      "choices": [
+        {
+          "id": "travel",
+          "label": "安排一次量力而行的旅行",
+          "text": "花 0.8 万，亲密度 +8、心情 +8。",
+          "effects": {
+            "cash": -0.8,
+            "mood": 8
+          },
+          "familyOp": "two-time"
+        },
+        {
+          "id": "walk",
+          "label": "从每天一起走走开始",
+          "text": "不额外花钱，健康 +4、亲密度 +6。",
+          "effects": {
+            "health": 4
+          },
+          "familyOp": "two-home"
+        },
+        {
+          "id": "help",
+          "label": "一起参与社区的事",
+          "text": "关系 +8、亲密度 +4。",
+          "effects": {
+            "relations": 8
+          },
+          "familyOp": "two-friends"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-solo",
+      "title": "一个人生活，也要有自己的后援",
+      "text": "你开始认真整理紧急联系人、体检安排，还有那些愿意互相搭把手的人。独处是自己的选择，支持也可以来自很多地方。",
+      "choices": [
+        {
+          "id": "friends",
+          "label": "把值得信赖的朋友联系起来",
+          "text": "关系 +9、心情 +5。",
+          "effects": {
+            "relations": 9,
+            "mood": 5
+          },
+          "familyOp": "solo-support"
+        },
+        {
+          "id": "rest",
+          "label": "把身体和生活安排稳一点",
+          "text": "花 0.2 万，健康 +6、压力 −5。",
+          "effects": {
+            "cash": -0.2,
+            "health": 6,
+            "stress": -5
+          },
+          "familyOp": "solo-support"
+        },
+        {
+          "id": "open",
+          "label": "也许可以给新的关系留个位置",
+          "text": "不立刻开始恋爱。重新对相处开放，之后会再有机会。",
+          "effects": {
+            "mood": 3
+          },
+          "familyOp": "reopen"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-talk",
+      "title": "抽空，聊聊我们接下来的日子",
+      "text": "最近的开销、相处的时间，还有彼此没说出口的事。你和{partner}决定先把手机放到一边。",
+      "choices": [
+        {
+          "id": "listen",
+          "label": "今天先认真听，不急着安排",
+          "text": "亲密度 +8、压力 −3。",
+          "effects": {
+            "stress": -3
+          },
+          "familyOp": "talk"
+        },
+        {
+          "id": "date",
+          "label": "留一个不用赶时间的约会",
+          "text": "花 0.12 万，亲密度 +11、心情 +4。",
+          "effects": {
+            "cash": -0.12,
+            "mood": 4
+          },
+          "familyOp": "date-time"
+        },
+        {
+          "id": "plan",
+          "label": "重谈养育计划，也尊重彼此的想法",
+          "text": "亲密度 +3。下一次会讨论是否要孩子；没有作出新选择前，不会改变原来的决定。",
+          "effects": {},
+          "familyOp": "rethink-child"
+        }
+      ],
+      "condition": "()=>true"
+    },
+    {
+      "id": "love-adopt-retry",
+      "title": "申请没有通过，先把自己照顾好",
+      "text": "这次收养评估没通过。失落可以被承认，下一步也不用马上决定。这里的结果是游戏情景，不代表现实收养资格。",
+      "choices": [
+        {
+          "id": "retry",
+          "label": "以后再申请，先继续准备",
+          "text": "两年后再次评估，准备费 0.3 万；仍有 70% 的游戏通过率，不保证成功。",
+          "effects": {
+            "cash": -0.3
+          },
+          "familyOp": "plan-adopt",
+          "familyRequires": "adopt"
+        },
+        {
+          "id": "later",
+          "label": "先不继续，给彼此一点时间",
+          "text": "暂停计划，三年后可以再谈。",
+          "effects": {
+            "stress": -3
+          },
+          "familyOp": "child-later"
+        },
+        {
+          "id": "no",
+          "label": "重新决定，不安排孩子了",
+          "text": "不再自动申请。关系和生活依然可以认真继续。",
+          "effects": {
+            "mood": 3
+          },
+          "familyOp": "child-no"
+        }
+      ],
+      "condition": "()=>true"
+    }
+  ],
+  "daily": [
+    "你打开余额看了一眼，又关上。钱没有因为多看两眼变多。",
+    "AI 帮你写了三版邮件，你最后还是用了“好的，收到”。",
+    "楼下早餐涨了五毛，老板给你多夹了一点菜。",
+    "你发现自己已经很久没为工作以外的事认真开心过，于是买了个冰淇淋。",
+    "朋友圈里又有人宣布“抓住时代红利”。你决定先抓住最后一班地铁。",
+    "同事把 AI 叫作搭子，领导把它叫降本增效。你觉得这两个词不像一回事。",
+    "手机提示周均屏幕时间下降了。主要是你最近在补觉。",
+    "你拒绝了一场没必要的聚会，回家煮了一碗很认真的面。",
+    "小区里的机器人卡在门槛上，你和保安一起把它抬了过去。",
+    "你终于删掉了那个一直扣费、又从来不用的会员。",
+    "一个很久没联系的人发来“在吗”。你先点开了余额。",
+    "你把“下次再说”改成了“周六见”，心里松了一点。",
+    "你学会了让 AI 先列出处，而不是先相信它。",
+    "维修师傅说新机器修起来更贵了。你突然很想念旧东西。",
+    "今天没有暴富，也没有被裁。你觉得这句话有时候也值得庆祝。",
+    "你把一张快褪色的合照换了相框。",
+    "自动客服转了七次，最后还是一位真人帮你解决了问题。",
+    "你忍住没买那个“限时最后一天”的东西。第二天它又限时了。",
+    "你开始关心睡眠，而不只是关心银行卡里的数字。",
+    "群里聊了一晚上未来，你默默把明天的便当放进冰箱。",
+    "你试着跑了两公里，最后一公里主要靠走，也算完成。",
+    "有人问你的五年计划。你说，先把牙补了。",
+    "你突然想明白：存款是底气，但不是每天不开心的补偿。",
+    "城市里开了新的避暑点，你把地址发给了家人。"
+  ],
+  "focuses": {
+    "learn": {
+      "name": "学点新东西",
+      "desc": "每年花 0.36 万，技能 +5，压力 +2；以后找工作更容易。"
+    },
+    "hustle": {
+      "name": "下班继续搞钱",
+      "desc": "每年多赚约 0.8—2 万，压力 +7，健康 −2。"
+    },
+    "rest": {
+      "name": "身体要紧",
+      "desc": "每年花 0.24 万，健康 +3，压力 −6。"
+    },
+    "people": {
+      "name": "陪陪身边的人",
+      "desc": "每年花 0.24 万，关系 +4，心情 +3，压力 −3。"
+    },
+    "social": {
+      "name": "出去交际",
+      "desc": "每年花 0.36 万，关系 +6，口碑 +1，压力 +1；拓宽找工作的人脉。"
+    }
+  },
+  "taxes": {
+    "honest": {
+      "name": "老老实实报",
+      "desc": "按游戏税表交税，没有申报风险。"
+    },
+    "deduct": {
+      "name": "合法扣除，别交冤枉税",
+      "desc": "每年花 0.08 万整理材料，应税收入多扣 1.2 万。"
+    },
+    "hide": {
+      "name": "少报一点，赌没事",
+      "desc": "只申报 65% 的应税收入。每年留下记录，未来可能被查，补税另加罚款。"
+    }
+  },
+  "actions": {
+    "study": {
+      "name": "报个课",
+      "desc": "花 0.2 万，技能 +5、压力 +2。每年一次。"
+    },
+    "checkup": {
+      "name": "检查一下身体",
+      "desc": "花 0.3 万，健康 +7、压力 −3。每年一次。"
+    },
+    "holiday": {
+      "name": "给自己放个假",
+      "desc": "花 0.2 万，健康 +3、心情 +7、压力 −8。每年一次。"
+    },
+    "job": {
+      "name": "投简历 / 接工作",
+      "desc": "每年一次，成功率随技能和人际关系变化；退休或服刑时不可用。"
+    },
+    "lottery": {
+      "name": "买一张彩票",
+      "desc": "花 2 元。1% 中 2000 元，0.01% 中 100 万（扣游戏税20%）。每年一次。"
+    },
+    "repay": {
+      "name": "先还一点债",
+      "desc": "用最多 3 万存款偿还债务。"
+    },
+    "sell": {
+      "name": "全部卖出投资",
+      "desc": "按当前估值变现，不预测下一年行情。"
+    },
+    "family": {
+      "name": "聊聊感情与家庭打算",
+      "desc": "每年可以主动聊一次；不会自动结婚或安排孩子。"
+    },
+    "career": {
+      "name": "处理岗位上的事",
+      "desc": "每年一次，处理自己身份相关的工作或经营选择。"
+    }
+  },
+  "finance": [
+    {
+      "id": "deposit",
+      "name": "活期存款",
+      "risk": "稳健 · 波动小",
+      "desc": "留给房租、看病和急事。随时能用，不随股市涨跌。",
+      "note": "本局游戏年利率 0.5%，不是现实银行报价。"
+    },
+    {
+      "id": "bond",
+      "name": "债券组合",
+      "risk": "相对稳健 · 波动较小",
+      "desc": "想少点起伏，可以考虑这一类。但不是保本存款，行情差时也会亏。",
+      "note": "组合含不同债券，收益和净值每年结算。"
+    },
+    {
+      "id": "index",
+      "name": "宽基指数",
+      "risk": "中高风险 · 有明显波动",
+      "desc": "分散跟随一篮子股票，适合暂时不用的闲钱。分散不等于不亏。",
+      "note": "遇到金融危机，可能连续下跌。"
+    },
+    {
+      "id": "ai",
+      "name": "股票组合",
+      "risk": "高风险 · 波动较大",
+      "desc": "偏成长型股票，上涨时可能更快，下跌时也更疼。别拿应急钱押它。",
+      "note": "和宽基可能一起跌，不是另一种保本。"
+    }
+  ],
+  "familyIds": [
+    "love-meet",
+    "love-commit",
+    "love-register",
+    "love-wedding",
+    "love-children",
+    "love-plan",
+    "love-care",
+    "love-school",
+    "love-teen",
+    "love-grown",
+    "love-leave",
+    "love-friction",
+    "love-childfree",
+    "love-later",
+    "love-solo",
+    "love-talk",
+    "love-adopt-retry"
+  ],
+  "roleIds": [
+    "job-office",
+    "job-hands",
+    "job-community",
+    "job-shop",
+    "job-owner",
+    "job-freelance",
+    "job-nurse",
+    "job-teacher",
+    "job-farmer",
+    "job-engineer",
+    "job-civil",
+    "job-mayor",
+    "job-mayor-term",
+    "job-business-trouble"
+  ],
+  "openings": [
+    {
+      "role": "office",
+      "event": {
+        "id": "first",
+        "title": "第一天，老板给你发来一套新工具",
+        "text": "同事说它能省时间，也有人提醒别直接相信结果。你想先决定，自己怎么把这份工作做下去。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "把新流程学扎实",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事或同行互相搭把手",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住节奏，不急着追新",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "hands",
+      "event": {
+        "id": "first",
+        "title": "新设备到了，你先怎么看？",
+        "text": "老师傅的经验还在，新设备的说明也得看。手艺、协作和安全，都是饭碗的一部分。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "把新流程学扎实",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事或同行互相搭把手",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住节奏，不急着追新",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "service",
+      "event": {
+        "id": "first",
+        "title": "先把这摞办事材料接住",
+        "text": "你要做的是把一件件小事接上，而不是替整个世界作决定。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "先把规则和账本学明白",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事一起梳理真实需求",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先按熟悉的流程稳住",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "shop",
+      "event": {
+        "id": "first",
+        "title": "卷帘门拉开，今天得自己做主",
+        "text": "看看成本和客流，找人一起摸索，或者先按熟悉的办法做。生意是你的，风险也是。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "先把成本和工具学明白",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同行或团队一起摸索",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住熟悉的做法",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "owner",
+      "event": {
+        "id": "first",
+        "title": "公司的账，先认真看一遍",
+        "text": "订单、工资单和回款都在桌上。你得先决定，是把流程学透、和团队一起理顺，还是稳着接手。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "先把成本和工具学明白",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同行或团队一起摸索",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住熟悉的做法",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "civil",
+      "event": {
+        "id": "first",
+        "title": "新岗位的第一摞材料",
+        "text": "审核要求、办理时限和自己的签字范围，都得先弄清楚。不是每个忙都能随便帮。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "先把规则和账本学明白",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事一起梳理真实需求",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先按熟悉的流程稳住",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "mayor",
+      "event": {
+        "id": "first",
+        "title": "接手第一天，先听什么？",
+        "text": "公共账本、团队汇报和居民的日常难处，都摆在面前。你自己的工资，与城市的钱分开记。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "先把规则和账本学明白",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事一起梳理真实需求",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先按熟悉的流程稳住",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "freelance",
+      "event": {
+        "id": "first",
+        "title": "第一个客户，需求还没写清楚",
+        "text": "没有老板安排每一步，报价、范围和时间都要自己判断。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "把新流程学扎实",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事或同行互相搭把手",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住节奏，不急着追新",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "nurse",
+      "event": {
+        "id": "first",
+        "title": "第一张排班表，已经很满",
+        "text": "新流程要熟悉，交接要清楚，身体也得留一点余量。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "把新流程学扎实",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事或同行互相搭把手",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住节奏，不急着追新",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "teacher",
+      "event": {
+        "id": "first",
+        "title": "新学期，先从这间教室开始",
+        "text": "准备课堂、和同事配合，还是先稳住自己的节奏，都有不同的投入。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "把新流程学扎实",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事或同行互相搭把手",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住节奏，不急着追新",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "farmer",
+      "event": {
+        "id": "first",
+        "title": "这一季，先从地里和账本开始",
+        "text": "天气、农资和销路都影响收成。不是肯吃苦就能保证赚钱。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "先把成本和工具学明白",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同行或团队一起摸索",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住熟悉的做法",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    },
+    {
+      "role": "engineer",
+      "event": {
+        "id": "first",
+        "title": "项目交到你手上，先理哪件事？",
+        "text": "图纸、进度与责任边界，都需要弄明白再签字。",
+        "choices": [
+          {
+            "id": "learn",
+            "label": "把新流程学扎实",
+            "text": "技能 +9、压力 +3。",
+            "effects": {
+              "skill": 9,
+              "stress": 3
+            },
+            "flags": {
+              "ai": true
+            }
+          },
+          {
+            "id": "share",
+            "label": "和同事或同行互相搭把手",
+            "text": "技能 +6、关系 +7、口碑 +3。",
+            "effects": {
+              "skill": 6,
+              "relations": 7,
+              "reputation": 3
+            },
+            "flags": {
+              "ai": true,
+              "helper": true
+            }
+          },
+          {
+            "id": "wait",
+            "label": "先稳住节奏，不急着追新",
+            "text": "压力 −4、技能 +1。",
+            "effects": {
+              "stress": -4,
+              "skill": 1
+            },
+            "flags": {
+              "skeptic": true
+            }
+          }
+        ],
+        "condition": "()=>true"
+      }
+    }
+  ],
+  "careerScheduler": "function careerEvent(s,manual=false){const k=s.career;if(!k?.active||!s.employed||s.prison||s.player.age>=65)return null;const seen=id=>s.decisions.some(d=>d.eventId===id);if(k.kind==='business'&&k.debt>(k.role==='owner'?100:12)&&(manual||!s.flags.lastBusinessReview||s.elapsed-s.flags.lastBusinessReview>=3))return 'job-business-trouble';if(k.role==='mayor'&&s.elapsed>=k.term)return 'job-mayor-term';const id=ROLE_EVENT[k.role];if(manual||s.elapsed>=2&&!seen(id))return id;return null;}",
+  "familyScheduler": "function familyEvent(s,manual=false){const f=s.family;if(!f||s.prison||s.phase!=='live')return null;const age=s.player.age,seen=id=>s.decisions.some(d=>d.eventId===id),open=partnered(f),t=s.elapsed;\n if(f.plan)return manual&&open?'love-talk':null;\n if(open&&f.closeness<35&&t-f.since>=2&&(manual||!s.flags.familyRepairYear||t-s.flags.familyRepairYear>=4))return 'love-friction';\n if(s.flags.adoptFailed&&!seen('love-adopt-retry'))return 'love-adopt-retry';\n const child=f.children[0],ca=child?t-child.born:-1;\n if(child&&ca<6&&!seen('love-care'))return 'love-care';if(child&&ca>=6&&!seen('love-school'))return 'love-school';if(child&&ca>=13&&!seen('love-teen'))return 'love-teen';if(child&&ca>=18&&!seen('love-grown'))return 'love-grown';if(child&&ca>=22&&!seen('love-leave'))return 'love-leave';\n if(!open){if(f.preference!=='solo'&&t>=f.revisit&&(manual||t>=2))return 'love-meet';if((manual||age>=35)&&!seen('love-solo'))return 'love-solo';return manual?'love-solo':null;}\n if(f.status==='partnered'&&(manual||t-f.committedAt>=4&&!seen('love-register')))return 'love-register';\n if(f.status==='dating'&&t-f.since>=2&&t>=f.revisit)return 'love-commit';\n if(f.status==='married'&&t-f.committedAt>=1&&!seen('love-wedding'))return 'love-wedding';\n if(committed(f)&&f.childWish==='yes'&&!f.children.length)return 'love-plan';\n if(committed(f)&&!f.children.length&&f.childWish!=='no'&&age>=26&&age<56&&t-f.committedAt>=1&&t>=f.revisit&&(f.childWish==='undecided'||f.childWish==='later'))return 'love-children';\n if(committed(f)&&f.childWish==='no'&&t-f.committedAt>=8&&!seen('love-childfree'))return 'love-childfree';\n if(committed(f)&&age>=60&&t-f.committedAt>=15&&!seen('love-later'))return 'love-later';\n return manual?'love-talk':null;\n}"
+}

@@ -13,3 +13,7 @@
 本地预览：`python -m http.server 5183 --directory site`，浏览器打开 `http://127.0.0.1:5183`。
 
 保留的 `site/vendor/qrcode.js` 包含其 MIT 许可。`scripts/prepare-site.mjs` 可从原站点 dist 重新生成静态版，排除服务端输出和托管配置。
+
+## 项目策划与设计文档
+
+[查看文档目录](docs/README.md)：产品方向、进程事件策划、站点设计、决策记录、Word/PDF及历史资料。新方向《再来一次》尚未实施，当前site/仍为《如果你是ta》成年职业测试版。
